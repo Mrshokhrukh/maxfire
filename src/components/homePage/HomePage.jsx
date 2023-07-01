@@ -17,14 +17,13 @@ const HomePage = () => {
     <div className="homepage">
       <div className="homepage_text">
         <div>
-          <h1>
+          <h1 className="text">
             высококачественний <br /> древесный уголь
           </h1>
           <div className="adv_text">
             <p>Без дыма и запаха</p>
           </div>
         </div>
-
         <div className="adv_exp">
           <p>10+ лет в продаже</p>
         </div>

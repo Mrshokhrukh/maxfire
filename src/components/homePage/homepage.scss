@@ -1,24 +1,32 @@
 .homepage {
     color: #fff;
-    height: 60vh;
+    height: 85vh;
+    position: relative;
 }
 
 .homepage_text {
-    margin-top: 100px;
+    height: 100%;
+    padding-top: 120px;
     // line-height: 65px;
     // font-weight: bold;
+
+
     h1 {
         font-size: 65px;
+        font-weight: bold;
+    }
+
+    .adv_exp {
+        position: absolute;
+        bottom: 8%;
+        font-size: 20px;
     }
 
     .adv_text {
-
         height: 50px;
-        // transform: skewX(10deg);
         transform: rotate(-2deg);
         margin-top: 15px;
         font-weight: 600;
-        // background-color: red;
         background-color: var(--red);
         display: inline-block;
         font-size: 28px;
@@ -29,8 +37,6 @@
             transform: rotate(2deg);
         }
     }
-
-
 
     @media(max-width:1400px) {
         h1 {
@@ -58,7 +64,11 @@
 
     @media(max-width:992px) {
         h1 {
-            font-size: 35px;
+            font-size: 45px;
+        }
+
+        .adv_exp {
+            font-size: 16px;
         }
 
         .adv_text {
@@ -81,10 +91,16 @@
     }
 }
 
+@media(max-width:768px) {
+    .homepage_text {
+        padding-top: 50px;
+    }
+}
 
 .to_bottom_circled_text {
-    position: relative;
-    
+    position: absolute;
+    bottom: 8%;
+    right: 0%;
     width: 120px;
     height: 120px;
     cursor: pointer;
@@ -125,5 +141,28 @@
         top: -8%;
         font-size: 16px;
         transform-origin: 0 70px;
+    }
+}
+
+@media(max-width:512px) {
+    .to_bottom_circled_text {
+        bottom: 0;
+        right: 10%;
+        width: 70px;
+        height: 70px;
+
+        .to_bottom_icon {
+            font-size: 22px;
+            width: 55px;
+            height: 55px;
+        }
+
+        .circle_text {
+            span {
+                top: -19%;
+                font-size: 14px;
+                transform-origin: 0 48px;
+            }
+        }
     }
 }

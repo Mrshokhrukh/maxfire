@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    transition: 0.3s;
 }
 
 @font-face {
@@ -11,10 +12,9 @@
 }
 
 :root {
-    --red: rgb(211, 9, 9);
+    --red: rgb(172, 10, 10);
     --lightshadow: 0 0 2px rgb(255, 0, 0), 0 0 8px rgb(255, 0, 0), 0 0 12px red;
 }
-
 
 body {
     font-family: fon;
@@ -40,4 +40,26 @@ a {
 
 ul {
     list-style: none;
+}
+
+
+.button {
+    width: 170px;
+    height: 35px;
+    background-color: var(--red);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    box-shadow: rgba(158, 5, 5, 0.7) 0px 7px 29px 0px;
+    display: flex;
+    justify-content: center;
+    column-gap: 6px;
+    align-items: center;
+
+    span {
+        margin-top: 6px;
+        font-size: 24px;
+    }
+
 }

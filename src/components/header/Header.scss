@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .head {
@@ -31,6 +30,11 @@
             display: flex;
             justify-content: space-between;
             width: 70%;
+
+            // a:hover {
+            //     padding: 7px 0;
+            //     border-bottom: 1.8px solid red;
+            // }
         }
 
         .lang {
