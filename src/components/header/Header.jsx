@@ -1,21 +1,56 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Header.scss";
+import BurgerMenu from "../burgerMenu/BurgerMenu";
+import Sidebar from "../sidebar/Sidebar";
+import logo from "../../assets/logo.png";
+import { useRef } from "react";
+
 const Header = () => {
+  let header = useRef(null);
+  const [isOpen, setIsOpen] = useState(false);
+  const sidebarOpen = () => {
+    setIsOpen(!isOpen);
+  };
+
+  useEffect(() => {
+    const onResize = () => {
+      if (window.innerWidth > 768 && window.scrollY > 50) {
+        header.current.style.top = "0";
+        header.current.style.boxShadow =
+          "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;";
+      } else if (window.innerWidth < 768 && window.scrollY > 20) {
+        header.current.style.top = "0";
+      } else {
+        header.current.style.top = "50px";
+      }
+    };
+
+    window.addEventListener("scroll", onResize);
+
+    return () => {
+      window.removeEventListener("scroll", onResize);
+    };
+  }, []);
+  const close = (para) => {
+    setIsOpen(para);
+  };
+  if (isOpen) {
+    document.querySelector(".home").addEventListener("click", () => {
+      setIsOpen(false);
+    });
+  }
   return (
-    <div className="head">
+    <div className="head" ref={header}>
       <div className="header">
         <div className="logo">
-          <img
-            src="https://st2.depositphotos.com/4035913/6124/i/600/depositphotos_61243831-stock-photo-letter-s-logo.jpg"
-            alt=""
-          />
+          <img src={logo} alt="" />
         </div>
         <ul className="elements">
           <li>
-            <a href="#">главная</a>
+            <a href="#home">главная</a>
           </li>
           <li>
-            <a href="#">о нас</a>
+            <a href="#about">о нас</a>
           </li>
           <li>
             <a href="#">брикеты</a>
@@ -35,6 +70,11 @@ const Header = () => {
             <p>uz</p>
           </div>
         </div>
+
+        <div className="burger_menubar_opener" onClick={sidebarOpen}>
+          <BurgerMenu />
+        </div>
+        <Sidebar isOpen={isOpen} close={close} />
       </div>
     </div>
   );

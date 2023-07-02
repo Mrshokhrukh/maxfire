@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import "./homepage.scss";
 import { BsArrowDown } from "react-icons/bs";
+import medal from "../../assets/medal.png";
+
 const HomePage = () => {
   useEffect(() => {
     const text = document.querySelector(".circle_text p");
@@ -14,7 +16,7 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div className="homepage">
+    <div className="homepage container">
       <div className="homepage_text">
         <div>
           <h1 className="text">
@@ -25,10 +27,15 @@ const HomePage = () => {
           </div>
         </div>
         <div className="adv_exp">
+          <img src={medal} alt="" className="medal_img"/>
           <p>10+ лет в продаже</p>
         </div>
       </div>
-      <div className="to_bottom_circled_text">
+
+      <div
+        className="to_bottom_circled_text"
+        onClick={() => (window.location.href = "#about")}
+      >
         <div className="to_bottom_icon">
           <BsArrowDown />
         </div>

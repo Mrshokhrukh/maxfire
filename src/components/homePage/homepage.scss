@@ -1,25 +1,32 @@
 .homepage {
     color: #fff;
-    height: 85vh;
+    height: 100vh;
     position: relative;
 }
 
+
+
 .homepage_text {
     height: 100%;
-    padding-top: 120px;
-    // line-height: 65px;
-    // font-weight: bold;
-
+    padding-top: 200px;
 
     h1 {
         font-size: 65px;
         font-weight: bold;
+
     }
 
     .adv_exp {
         position: absolute;
         bottom: 8%;
         font-size: 20px;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+
+        .medal_img {
+            width: 30px;
+        }
     }
 
     .adv_text {
@@ -64,7 +71,7 @@
 
     @media(max-width:992px) {
         h1 {
-            font-size: 45px;
+            font-size: 36px;
         }
 
         .adv_exp {
@@ -80,7 +87,7 @@
 
     @media(max-width:502px) {
         h1 {
-            font-size: 28px;
+            font-size: 24px;
         }
 
         .adv_text {
@@ -91,16 +98,23 @@
     }
 }
 
+@media(max-width:1290px) {
+    .homepage_text {
+        padding-top: 200px;
+    }
+}
+
 @media(max-width:768px) {
     .homepage_text {
-        padding-top: 50px;
+        padding-top: 180px;
     }
 }
 
 .to_bottom_circled_text {
     position: absolute;
-    bottom: 8%;
-    right: 0%;
+    top: 80%;
+    right: 2%;
+    z-index: 10;
     width: 120px;
     height: 120px;
     cursor: pointer;
@@ -146,8 +160,9 @@
 
 @media(max-width:512px) {
     .to_bottom_circled_text {
-        bottom: 0;
-        right: 10%;
+        position: fixed;
+        top: 90%;
+        left: 70%;
         width: 70px;
         height: 70px;
 
@@ -160,8 +175,8 @@
         .circle_text {
             span {
                 top: -19%;
-                font-size: 14px;
-                transform-origin: 0 48px;
+                font-size: 12px;
+                transform-origin: 0px 48px;
             }
         }
     }

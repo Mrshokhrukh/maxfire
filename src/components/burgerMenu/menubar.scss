@@ -1,0 +1,42 @@
+.burger_menu {
+
+    width: 50px;
+    height: 35px;
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    border: 2px solid var(--red);
+    background-color: rgba(245, 245, 245, 0.822);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+
+    li {
+        border-radius: 25px;
+        width: 75%;
+        height: 2px !important;
+        background-color: red;
+
+    }
+
+    &:hover {
+
+        li:nth-child(1) {
+            width: 80%;
+
+        }
+
+        li:nth-child(2) {
+            width: 65%;
+        }
+
+        li:nth-child(3) {
+            width: 80%;
+        }
+    }
+
+
+
+}

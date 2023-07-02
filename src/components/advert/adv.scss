@@ -1,122 +1,145 @@
+.adv_back {
+    width: 100%;
+    height: 450px;
+    position: relative;
+
+    .adv_back_img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+
+        img {
+            width: 100%;
+            height: 100%;
+
+            // background-position: right;
+            // background-size: cover;
+            // background-size: cover;
+            // object-fit: cover;
+
+        }
+    }
+
+
+}
+
 .adv {
     position: relative;
-    top: 25px;
-    background-color: rebeccapurple;
-    height: 45vh;
-    background: url('https://wallpapers.com/images/featured/4k-nature-ztbad1qj8vdjqe0p.jpg');
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-position: bottom;
+    object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
-    object-fit: cover;
-    background-position: center;
     display: flex;
-
-    div:nth-child(1) {
-        width: 50%;
-    }
+    justify-content: flex-end;
+    padding: 20px 0;
 
     .adv_info {
         width: 50%;
         height: 100%;
-        color: #fff;
         display: flex;
         align-items: center;
-
+        color: #fff;
 
         .adv_info_cont {
-            position: relative;
             display: flex;
             flex-direction: column;
-            row-gap: 50px;
-            width: 95%;
-            z-index: 1;
-
-            // .circled_blur {
-            //     position: absolute;
-            //     width: 45%;
-            //     height: 70px;
-            //     background-color: var(--red);
-            //     transform: rotate(-15deg);
-            //     border-radius: 50%;
-            //     right: -5%;
-            //     top: 12%;
-            //     z-index: -1;
-            //     filter: blur(10px);
-            // }
+            gap: 35px;
 
             h1 {
-                font-size: 36px;
-                line-height: 40px;
+                font-size: 30px;
             }
 
             .info_text {
-                font-weight: bold;
                 font-size: 18px;
-                text-align: justify;
+                font-weight: 500;
+
+                p span {
+                    margin: 4px 5px 0 0;
+                    height: 0 !important;
+                }
+
+                .info_text_icon {
+                    color: var(--red);
+                    float: left;
+                }
             }
 
             .adv_info_btns {
-                width: 100%;
                 display: flex;
+                width: 100%;
                 justify-content: space-between;
+
+                button {
+                    width: 30%;
+                }
             }
 
             .adv_info_btns button:hover {
-                transform: translateY(-15%);
                 cursor: pointer;
+                transform: translateY(-12%);
             }
         }
-
     }
-}
 
-
-@media screen and (max-width:1300px) {
-    .adv {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        padding: 0 10px;
-
-        div:nth-child(1) {
-            width: 40%;
-        }
-
+    @media screen and (max-width:1400px) {
         .adv_info {
             width: 60%;
+        }
+    }
 
-            .adv_info_cont {
-                gap: 30px;
+    @media screen and (max-width:1200px) {
+        .adv_info {
+            width: 55%;
+            padding: 0px 20px 0 0;
+        }
 
-                h1 {
-                    font-size: 30px;
-                }
+        .adv_info_cont {
+            display: flex;
+            flex-direction: column;
+            gap: 30px !important;
 
-                .info_text {
-                    width: 75%;
-                    font-size: 16px;
+            h1 {
+                font-size: 30px !important;
+                text-align: center;
+            }
+
+            .info_text {
+                font-size: 16px !important;
+                font-weight: bold;
+            }
+
+            .adv_info_btns {
+                flex-direction: column;
+                gap: 20px;
+
+                button {
+                    width: 100% !important;
                 }
             }
         }
-
     }
-}
 
-@media screen and (max-width:1024px) {
-    .adv {
-        justify-content: center;
+    @media screen and (max-width:768px) {
 
         .adv_info {
-            .adv_info_cont {
-                row-gap: 20px;
+            width: 90%;
+            margin: 20px auto;
+            padding: 0;
 
+
+            .adv_info_cont {
+                gap: 25px !important;
 
                 h1 {
-                    font-size: 30px;
+                    font-size: 26px !important;
                 }
 
                 .info_text {
-                    width: 80%;
-                    font-size: 16px;
+                    font-size: 14px !important;
                 }
             }
         }
@@ -124,47 +147,8 @@
 }
 
 @media screen and (max-width:768px) {
-    .adv {
-
-
-        .adv_info {
-
-
-            .adv_info_cont {
-                gap: 20px;
-
-                h1 {
-                    font-size: 26px;
-                    text-align: center;
-                }
-
-                .info_text {
-                    width: 100%;
-                    font-size: 16px;
-
-                }
-
-                .adv_info_btns {
-                    flex-direction: column;
-                    gap: 15px;
-
-                    button {
-                        width: 100%;
-                    }
-                }
-            }
-        }
+    .adv_back {
+        height: auto;
     }
-}
 
-@media (max-width:631px) {
-    .adv {
-        div:nth-child(1) {
-            width: 0;
-        }
-
-        .adv_info {
-            width: 100%;
-        }
-    }
 }
