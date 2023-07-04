@@ -16,7 +16,7 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div className="homepage container">
+    <div className="homepage container" id="home">
       <div className="homepage_text">
         <div>
           <h1 className="text">
@@ -27,7 +27,7 @@ const HomePage = () => {
           </div>
         </div>
         <div className="adv_exp">
-          <img src={medal} alt="" className="medal_img"/>
+          <img src={medal} alt="" className="medal_img" />
           <p>10+ лет в продаже</p>
         </div>
       </div>
