@@ -7,8 +7,9 @@
 
 .about {
     height: 100vh;
-    display: grid;
-    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
 
     .line_img {
         width: 100%;
@@ -20,7 +21,10 @@
     .about_text {
         color: #fff;
         font-size: 24px;
+        text-align: justify;
     }
+
+
 
 
     .about_youtube_video {
@@ -55,6 +59,66 @@
                 height: 100px;
             }
 
+        }
+    }
+
+    @media screen and (max-width:1300px) {
+        .about_text {
+            font-size: 22px;
+        }
+
+        .about_youtube_video {
+            height: 350px;
+        }
+    }
+
+    @media screen and (max-width:1100px) {
+        .about_text {
+            font-size: 20px;
+        }
+
+        .about_youtube_video {
+            height: 300px;
+
+            .youtube_icon img {
+                cursor: pointer;
+                width: 80px;
+                height: 80px;
+            }
+        }
+    }
+
+    @media screen and (max-width:992px) {
+        .about_text {
+            font-size: 18px;
+
+        }
+
+        .about_youtube_video {
+            height: 260px;
+
+            .youtube_icon img {
+                cursor: pointer;
+                width: 60px;
+                height: 60px;
+            }
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        .about_text {
+            font-size: 16px;
+        }
+
+        .about_youtube_video {
+            height: 200px;
+            border-radius: 15px;
+
+            .youtube_icon img {
+                cursor: pointer;
+                width: 45px;
+                height: 45px;
+            }
         }
     }
 
@@ -93,6 +157,13 @@
 
     @media (max-width:1200px) {}
 }
+
+@media(max-width:768px) {
+    .about {
+        gap: 30px;
+    }
+}
+
 
 .about_back_img {
     position: absolute;
