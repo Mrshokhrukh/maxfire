@@ -81,7 +81,7 @@ const Header = () => {
             className={category == "products" ? "nav_link active" : "nav_link"}
             onClick={() => changeCatg("products")}
           >
-            <a href="#">{t("header_elements.el_3")}</a>
+            <a href="#products">{t("header_elements.el_3")}</a>
           </li>
           <li
             ref={nav_link}

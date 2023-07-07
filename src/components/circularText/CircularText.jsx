@@ -1,8 +1,10 @@
 import React, { useEffect } from "react";
-import { BsArrowDown } from "react-icons/bs";
-import './circular.scss'
-const CircularText = () => {
+import "./circular.scss";
+const CircularText = ({ text, icon }) => {
   useEffect(() => {
+    a();
+  }, [text]);
+  let a = () => {
     const text = document.querySelector(".circle_text p");
     text.innerHTML = text.innerText
       .split("")
@@ -11,17 +13,16 @@ const CircularText = () => {
           `<span style='transform:rotate(${i * 6.4}deg)'>${char}</span>`
       )
       .join("");
-  }, []);
+  };
+
   return (
     <div
       className="to_bottom_circled_text"
-      onClick={() => (window.location.href = "#about")}
+      onClick={() => (window.location.href = "#contact")}
     >
-      <div className="to_bottom_icon">
-        <BsArrowDown />
-      </div>
+      <div className="to_bottom_icon">{icon}</div>
       <div className="circle_text">
-        <p>листавйте вниз * листавйте вниз * </p>
+        <p>{text}</p>
       </div>
     </div>
   );

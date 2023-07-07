@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./homepage.scss";
-
+import { BsArrowDown } from "react-icons/bs";
 import medal from "../../assets/medal.png";
 import CircularText from "../circularText/CircularText";
 
@@ -21,7 +21,7 @@ const HomePage = () => {
           <p>10+ лет в продаже</p>
         </div>
       </div>
-      <CircularText />
+      <CircularText icon={<BsArrowDown />} text={"листавйте вниз * листавйте вниз *"} />
     </div>
   );
 };

@@ -1,0 +1,21 @@
+.products_page_back_img {
+    position: absolute;
+    z-index: -1;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.products_page {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    .products_container {
+        width: 100%;
+        height: 100%;
+        background-color: rebeccapurple;
+    }
+}
