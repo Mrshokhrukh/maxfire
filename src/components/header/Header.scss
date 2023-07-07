@@ -119,6 +119,10 @@
                 display: none;
             }
 
+            .logo img {
+                width: 70px;
+            }
+
             .lang {
                 display: none;
             }
@@ -136,4 +140,10 @@
         }
     }
 
+}
+
+@media(max-width:768px) {
+    .head {
+        height: 70px;
+    }
 }

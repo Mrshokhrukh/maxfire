@@ -1,6 +1,6 @@
 import React from "react";
 import "./info.scss";
-import back_photo from "../../assets/background.png";
+import back_photo from "../../assets/0.png";
 import InfoBoxTwo from "../infoBoxTwo/InfoBoxTwo";
 const Info = () => {
   return (

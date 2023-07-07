@@ -32,7 +32,7 @@ const About = () => {
 
         <div className="about_youtube_video">
           <div className="youtube_icon">
-            <a href="https://www.youtube.com" target="_blank">
+            <a href="https://youtu.be/0UKTXivgZ0U" target="_blank">
               <img src={yu} alt="404" />
             </a>
           </div>

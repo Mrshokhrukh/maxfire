@@ -4,15 +4,20 @@ import BurgerMenu from "../burgerMenu/BurgerMenu";
 import Sidebar from "../sidebar/Sidebar";
 import logo from "../../assets/logo.png";
 import { useRef } from "react";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
+  const [t, i18n] = useTranslation("global");
   let header = useRef(null);
   let nav_link = useRef(null);
   const [isOpen, setIsOpen] = useState(false);
   const [category, setCategory] = useState("");
-
   const sidebarOpen = () => {
     setIsOpen(!isOpen);
+  };
+
+  const changeLanguage = (lang) => {
+    i18n.changeLanguage(lang);
   };
 
   useEffect(() => {
@@ -55,49 +60,49 @@ const Header = () => {
             <img src={logo} alt="" />
           </a>
         </div>
-        
+
         <ul className="elements">
           <li
             ref={nav_link}
             className={category == "home" ? "nav_link active" : "nav_link"}
             onClick={() => changeCatg("home")}
           >
-            <a href="#home">главная</a>
+            <a href="#home">{t("header_elements.el_1")}</a>
           </li>
           <li
             ref={nav_link}
             className={category == "about" ? "nav_link active" : "nav_link"}
             onClick={() => changeCatg("about")}
           >
-            <a href="#about">о нас</a>
+            <a href="#about">{t("header_elements.el_2")}</a>
           </li>
           <li
             ref={nav_link}
             className={category == "products" ? "nav_link active" : "nav_link"}
             onClick={() => changeCatg("products")}
           >
-            <a href="#">брикеты</a>
+            <a href="#">{t("header_elements.el_3")}</a>
           </li>
           <li
             ref={nav_link}
             className={category == "buy" ? "nav_link active" : "nav_link"}
             onClick={() => changeCatg("buy")}
           >
-            <a href="#">где купить?</a>
+            <a href="#">{t("header_elements.el_4")}</a>
           </li>
           <li
             ref={nav_link}
             className={category == "contact" ? "nav_link active" : "nav_link"}
             onClick={() => changeCatg("contact")}
           >
-            <a href="#">контакты</a>
+            <a href="#">{t("header_elements.el_5")}</a>
           </li>
         </ul>
         <div className="lang">
-          <div className="ru">
+          <div className="ru" onClick={() => changeLanguage("rus")}>
             <p>ru</p>
           </div>
-          <div className="uz">
+          <div className="uz" onClick={() => changeLanguage("uz")}>
             <p>uz</p>
           </div>
         </div>

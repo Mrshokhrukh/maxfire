@@ -1,0 +1,36 @@
+{
+  "header_elements": {
+    "el_1": "asosiy",
+    "el_2": "biz haqimizda",
+    "el_3": "mahsulotlar",
+    "el_4": "sotib olish",
+    "el_5": "Kontaktlar"
+  },
+
+  "home_page_text": {
+    "main_text": "yuqori sifatli ko'mir",
+    "btn_text": "Tutun va hidsiz",
+    "age_medal": "10+ yildan ortiq sotuvlar"
+  },
+
+  "second_page": {
+    "main_text": "KO‘G‘IR BRIKETI",
+    "desc": "go'sht, baliq, parranda go'shti va boshqa turli xil idishlarni panjara, panjara va barbekyularda tez va xavfsiz pishirish uchun mo'ljallangan.",
+    "btn_1": "tabiiy",
+    "btn_2": "uzoqroq yonish",
+    "btn_3": "2x issiq"
+  },
+
+  "third_page": {
+    "about_text": "biz haqimizda",
+    "desc": "Max fire - Biz 2014 yildan beri ko'mir ishlab chiqaramiz. Bizning pechlarimizning umumiy quvvati oyiga 200 tonnadan ortiq ko'mirni tashkil etadi. Kompaniyamiz o'zini yuqori sifatli ko'mirning ishonchli ishlab chiqaruvchisi sifatida ko'rsatdi! Biz barcha ishlab chiqarish jarayonlarini qat'iy nazorat qilamiz: yog'ochni tanlash va yig'ib olishdan tortib qadoqlash sifatini nazorat qilish va o'z vaqtida yetkazib berishgacha."
+
+  },
+  "fourth_page": {
+    "starter_text": "Starter - ko'mirni yoqish uchun",
+    "text_1": "0,5 mm qalinlikdagi yuqori sifatli metalldan tayyorlangan",
+    "text_2": "zamonaviy va qulay eman dastasi barmoqlaringizni kesmaydi",
+    "text_3": "starter diametri 18 sm, balandligi 30 sm",
+    "text_4": "2 kg briket uchun ideal hajm"
+  }
+}

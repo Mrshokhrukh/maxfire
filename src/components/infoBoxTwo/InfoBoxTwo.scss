@@ -4,25 +4,41 @@
     color: #fff;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     position: relative;
-
+    background-color: rgba(255, 255, 255, 0.267);
 
     .infogram_back_blur_img {
         position: absolute;
-        z-index: -1;
-        left: 0;
         top: 0;
+        left: 0;
+        z-index: -1;
+
+        width: 45%;
+
+        img {
+            width: 100%;
+        }
     }
 
-    h1,
     p {
-
         font-weight: 500 !important;
+        gap: 10px;
+        display: flex;
+        align-items: center;
+
+        .right_arrow_img {
+            width: 18px;
+            padding-top: 3px;
+        }
     }
 
     h1 {
+
         margin-bottom: 50px;
+        font-weight: 500 !important;
     }
+
 
     .starter_text {
         font-size: 56px;
@@ -33,5 +49,51 @@
         flex-direction: column;
         gap: 20px;
         font-size: 18px;
+    }
+
+    @media(max-width:992px) {
+        h1 {
+            .starter_text {
+                font-size: 45px;
+            }
+        }
+
+        .infogram_text {
+            font-size: 16px;
+        }
+    }
+
+    @media(max-width:768px) {
+        h1 {
+            font-size: 20px;
+
+            .starter_text {
+                font-size: 36px;
+            }
+        }
+
+        .infogram_text {
+            font-size: 16px;
+            text-align: justify;
+        }
+    }
+
+    @media(max-width:768px) {
+        h1 {
+            font-size: 20px;
+            margin-bottom: 20px;
+            text-align: justify;
+
+            .starter_text {
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+@media(max-width:502px) {
+    .desc_infogram {
+        // width: 96%;
+        padding: 0 10px;
     }
 }

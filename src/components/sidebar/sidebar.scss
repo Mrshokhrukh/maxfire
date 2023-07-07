@@ -1,11 +1,12 @@
 .sidebar {
-    position: fixed;
-    top: 5.1%;
+    position: absolute;
+    top: 0;
     right: -250%;
     width: 300px;
     height: 100vh !important;
     z-index: 10;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-left: 1.5px solid rgb(0, 0, 0);
 
     a {
         color: white;
@@ -28,7 +29,7 @@
         justify-content: center;
         color: #fff;
         position: absolute;
-        top: 3%;
+        top: 10%;
         right: 7%;
         font-size: 32px;
         cursor: pointer;
@@ -40,61 +41,61 @@
         border: 1px solid rgba(255, 255, 255, 0.18);
     }
 
-    .closemenu:hover {
-        animation: rotation 5s infinite linear;
-    }
+    // .closemenu:hover {
+    //     animation: rotation 5s infinite linear;
+    // }
 
-    @keyframes rotation {
-        0% {
-            transform: rotate(350turn);
-            border: 1px solid green;
-        }
+    // @keyframes rotation {
+    //     0% {
+    //         transform: rotate(350turn);
+    //         border: 1px solid green;
+    //     }
 
-        10% {
-            border: 1px solid var(--red);
-        }
+    //     10% {
+    //         border: 1px solid var(--red);
+    //     }
 
-        20% {
-            border: 1px solid dodgerblue;
-        }
+    //     20% {
+    //         border: 1px solid dodgerblue;
+    //     }
 
-        30% {
-            border: 1px solid darkorchid;
-        }
+    //     30% {
+    //         border: 1px solid darkorchid;
+    //     }
 
-        40% {
-            border: 1px solid yellow;
-        }
+    //     40% {
+    //         border: 1px solid yellow;
+    //     }
 
-        50% {
-            border: 1px solid black;
-        }
+    //     50% {
+    //         border: 1px solid black;
+    //     }
 
-        60% {
-            border: 1px solid aqua;
-        }
+    //     60% {
+    //         border: 1px solid aqua;
+    //     }
 
-        70% {
-            border: 1px solid lightgreen;
-        }
+    //     70% {
+    //         border: 1px solid lightgreen;
+    //     }
 
-        80% {
-            border: 1px solid orange;
-        }
+    //     80% {
+    //         border: 1px solid orange;
+    //     }
 
-        90% {
-            border: 1px solid deeppink;
-        }
+    //     90% {
+    //         border: 1px solid deeppink;
+    //     }
 
-        100% {
-            border: 1px solid cyan;
-        }
-    }
+    //     100% {
+    //         border: 1px solid cyan;
+    //     }
+    // }
 
     .nav_elements {
         width: 100%;
         position: relative;
-        top: 10%;
+        top: 18%;
         display: flex;
         flex-direction: column;
         gap: 10px;
@@ -126,10 +127,8 @@
 
         li:hover {
             background-color: black;
-
             .sidebar_icon_sjow {
                 opacity: 1;
-
             }
         }
 
