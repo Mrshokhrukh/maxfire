@@ -16,32 +16,33 @@ const Products = () => {
   const [isCenter, setIsCenter] = useState(false);
   const [width, setWidth] = useState(window.innerWidth);
 
-  useEffect(() => {
-    window.addEventListener("resize", () => {
-      setWidth(window.innerWidth);
+  // useEffect(() => {
+  //   window.addEventListener("resize", () => {
+  //     setWidth(window.innerWidth);
 
-      if (window.innerWidth > 1300) {
-        setSlides(4.3);
-      }
-      if (window.innerWidth < 1300) {
-        setSlides(3.5);
-      }
-      if (window.innerWidth < 1100) {
-        setSlides(3);
-      }
-      if (window.innerWidth < 900) {
-        setSlides(2);
-      }
-      if (window.innerWidth < 768) {
-        setSlides(1);
-      }
-    });
-    return () => {
-      window.removeEventListener("resize", () => {
-        setWidth(window.innerWidth);
-      });
-    };
-  }, [window.innerWidth]);
+  //     if (window.innerWidth > 1300) {
+  //       setSlides(4.3);
+  //     }
+  //     if (window.innerWidth < 1300) {
+  //       setSlides(3.5);
+  //     }
+  //     if (window.innerWidth < 1100) {
+  //       setSlides(3);
+  //     }
+  //     if (window.innerWidth < 900) {
+  //       setSlides(2);
+  //     }
+  //     if (window.innerWidth < 768) {
+  //       setSlides(1);
+  //       setIsCenter(true);
+  //     }
+  //   });
+  //   return () => {
+  //     window.removeEventListener("resize", () => {
+  //       setWidth(window.innerWidth);
+  //     });
+  //   };
+  // }, [window.innerWidth]);
 
   return (
     <>
@@ -55,8 +56,35 @@ const Products = () => {
 
         <div className="products_container">
           <Swiper
+            breakpoints={{
+              0: {
+                slidesPerView: 1,
+              },
+              520: {
+                slidesPerView: 1,
+              },
+              768: {
+                slidesPerView: 2,
+              },
+              992: {
+                slidesPerView: 3,
+              },
+              1201: {
+                slidesPerView: 3.5,
+              },
+              1300: {
+                slidesPerView: 4,
+              },
+              1440: {
+                slidesPerView: 4.5,
+              },
+              1720: {
+                slidesPerView: 5,
+              },
+            }}
             slidesPerView={slides}
             centeredSlides={false}
+            spaceBetween={10}
             pagination={{
               clickable: true,
             }}
