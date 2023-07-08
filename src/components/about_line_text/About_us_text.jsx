@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./ab_line_text.scss";
 const Category_text = ({ text }) => {
   return (
