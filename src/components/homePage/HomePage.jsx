@@ -21,7 +21,10 @@ const HomePage = () => {
           <p>10+ лет в продаже</p>
         </div>
       </div>
-      <CircularText icon={<BsArrowDown />} text={"листавйте вниз * листавйте вниз *"} />
+      <CircularText
+        icon={<BsArrowDown />}
+        text={"листавйте вниз * листавйте вниз *"}
+      />
     </div>
   );
 };

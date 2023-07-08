@@ -2,7 +2,7 @@ import React from "react";
 import "./about.scss";
 import line from "../../assets/Untitled-2.png";
 import yu from "../../assets/youtube.com.png";
-import video1 from "../../assets/8 page/background/571699_Grill_Meat_Barbecue_3840x2160.mp4";
+// import video1 from "../../assets/8 page/background/571699_Grill_Meat_Barbecue_3840x2160.mp4";
 import backImg from "../../assets/3 page/background.png";
 import CircularText from "../circularText/CircularText";
 // import plan from "../../assets/play-button (1).png";
@@ -37,7 +37,7 @@ const About = () => {
             </a>
           </div>
           <video autoPlay loop muted>
-            <source src={video1} type="video/mp4" />
+            {/* <source src={video1} type="video/mp4" /> */}
           </video>
 
           <div className="play_btn_icon">
