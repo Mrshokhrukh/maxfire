@@ -50,8 +50,13 @@ const Products = () => {
         <img src={backImg} alt="" />
       </div>
       <div className="products_page" id="products">
-        <div className="product_category_text">
-          <Category_text text={"Брикеты"} />
+        <div className="text_box_products_page">
+          <div className="products_text_line">
+            <div className="rotated_text_btn">
+              <p>Брикеты</p>
+            </div>
+            <div className="line"></div>
+          </div>
         </div>
 
         <div className="products_container">
@@ -60,31 +65,32 @@ const Products = () => {
               0: {
                 slidesPerView: 1,
               },
-              520: {
-                slidesPerView: 1,
-              },
-              768: {
+              620: {
                 slidesPerView: 2,
+                spaceBetween: 10,
+              },
+              868: {
+                slidesPerView: 3,
+                spaceBetween: 20,
               },
               992: {
-                slidesPerView: 3,
+                slidesPerView: 3.5,
               },
               1201: {
                 slidesPerView: 3.5,
+                spaceBetween: 30,
               },
               1300: {
                 slidesPerView: 4,
               },
               1440: {
                 slidesPerView: 4.5,
-              },
-              1720: {
-                slidesPerView: 5,
+                spaceBetween: 50,
               },
             }}
-            slidesPerView={slides}
+            slidesPerView={4.3}
             centeredSlides={false}
-            spaceBetween={10}
+            spaceBetween={50}
             pagination={{
               clickable: true,
             }}
