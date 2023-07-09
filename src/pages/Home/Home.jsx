@@ -6,6 +6,7 @@ import pageOne from "../../assets/1 page+picture.png";
 import Info from "../../components/info/Info";
 import Products from "../../components/products/Products";
 import Buy from "../../components/buy/Buy";
+import Traffic from "../../components/traffics/Traffic";
 const Home = () => {
   return (
     <>
@@ -19,6 +20,7 @@ const Home = () => {
         <Info />
         <Products />
         <Buy />
+        <Traffic />
       </div>
     </>
   );
