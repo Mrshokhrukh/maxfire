@@ -8,10 +8,11 @@ import CircularText from "../circularText/CircularText";
 // import plan from "../../assets/play-button (1).png";
 import { IoPlayOutline } from "react-icons/io5";
 import Category_text from "../about_line_text/About_us_text";
+
 const About = () => {
   return (
     <div>
-      <div className="about_back_img" >
+      <div className="about_back_img_about">
         <img src={backImg} alt="" />
       </div>
       <div id="about" className="about container">

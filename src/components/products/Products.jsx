@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./products.scss";
 import backImg from "../../assets/5 page/background.png";
 import { products } from "../../assets/data";
-
+import "./title.scss";
 import Category_text from "../about_line_text/About_us_text";
 
 import { Pagination, Autoplay, Navigation } from "swiper/modules";

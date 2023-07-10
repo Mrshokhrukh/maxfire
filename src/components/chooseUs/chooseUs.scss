@@ -1,0 +1,41 @@
+.page_8_choose_us {
+    position: relative;
+    height: 80vh;
+
+    video {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        object-fit: cover;
+        background-size: cover;
+        filter: brightness(0.3);
+    }
+}
+
+.our_priorities_page {
+    width: 100%;
+    padding: 70px 0;
+    display: grid;
+
+
+    .our_priorities_page_text {
+        font-size: 42px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .eighth_page_info_boxes {
+        margin-top: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        [class*="box"] {
+            height: 450px;
+            width: 30%;
+            border: 2px solid whitesmoke;
+        }
+    }
+}

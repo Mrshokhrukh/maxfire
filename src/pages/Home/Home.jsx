@@ -7,6 +7,7 @@ import Info from "../../components/info/Info";
 import Products from "../../components/products/Products";
 import Buy from "../../components/buy/Buy";
 import Traffic from "../../components/traffics/Traffic";
+import ChooseUs from "../../components/chooseUs/ChooseUs";
 const Home = () => {
   return (
     <>
@@ -21,6 +22,7 @@ const Home = () => {
         <Products />
         <Buy />
         <Traffic />
+        <ChooseUs />
       </div>
     </>
   );
