@@ -14,20 +14,23 @@ const Traffic = () => {
           <div className="main_texts">
             <div className="wrapp">
               <h1>Услуга</h1>
-              <img src={circle} alt="" />
+              <img src={circle} alt="" className="cirlce_img" />
             </div>
-            <p>доставки по узбекистану</p>
+            <p className="delivery_text">доставки по узбекистану</p>
           </div>
-          <div className="grant_info">
-            <p>Доставим ваш заказ в течени 1-10 дней в зависимости от объема</p>
+          <div className="grant_info_text">
+            <p>
+              Доставим ваш заказ в течени <br /> 1-10 дней в зависимости от
+              объема
+            </p>
           </div>
 
-          <div className="btn_big_box">
+          <div className="btn_big_box_text">
             При заказа от 100 шт доставка за наш счет.
           </div>
 
           <div className="last_location_text">
-            <p>Также вы можете сделать самовывоз с нашего завода в Ташкенте.</p>
+            <p>Также вы можете сделать самовывоз <br /> с нашего завода в Ташкенте.</p>
           </div>
         </div>
       </div>
