@@ -7,7 +7,7 @@ import tg from "../../assets/последние/telegram.png";
 import fac from "../../assets/последние/facebook.png";
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer" id="contact">
       <div className="footer_form">
         <div className="address_footer container">
           <div className="address_info">

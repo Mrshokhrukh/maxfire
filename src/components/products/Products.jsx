@@ -16,33 +16,6 @@ const Products = () => {
   const [isCenter, setIsCenter] = useState(false);
   const [width, setWidth] = useState(window.innerWidth);
 
-  // useEffect(() => {
-  //   window.addEventListener("resize", () => {
-  //     setWidth(window.innerWidth);
-
-  //     if (window.innerWidth > 1300) {
-  //       setSlides(4.3);
-  //     }
-  //     if (window.innerWidth < 1300) {
-  //       setSlides(3.5);
-  //     }
-  //     if (window.innerWidth < 1100) {
-  //       setSlides(3);
-  //     }
-  //     if (window.innerWidth < 900) {
-  //       setSlides(2);
-  //     }
-  //     if (window.innerWidth < 768) {
-  //       setSlides(1);
-  //       setIsCenter(true);
-  //     }
-  //   });
-  //   return () => {
-  //     window.removeEventListener("resize", () => {
-  //       setWidth(window.innerWidth);
-  //     });
-  //   };
-  // }, [window.innerWidth]);
 
   return (
     <>

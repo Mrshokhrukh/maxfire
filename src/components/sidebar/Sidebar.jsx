@@ -11,12 +11,7 @@ const Sidebar = ({ isOpen, close }) => {
   return (
     
     <div className={isOpen ? "sidebar open" : "sidebar"}>
-      <div className="img">
-        <img
-          src="https://img.freepik.com/premium-photo/panoramic-landscape-sunrise_335224-1307.jpg?w=2000"
-          alt=""
-        />
-      </div>
+    
       <div className="closemenu" onClick={closeSidebar}>
         <CgClose />
       </div>

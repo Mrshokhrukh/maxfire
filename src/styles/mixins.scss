@@ -59,4 +59,10 @@
             transform: translateY(500%);
         }
     }
+
+    @media(max-width:600px) {
+        .line {
+            width: 90%;
+        }
+    }
 }

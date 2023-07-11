@@ -2,24 +2,20 @@
     position: absolute;
     top: 0;
     right: -250%;
-    width: 300px;
+    width: 100%;
     height: 100vh !important;
     z-index: 10;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-left: 1.5px solid rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.35);
+
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
 
     a {
-        color: white;
+        color: black;
     }
 
-    img {
-        width: 100%;
-        height: 100%;
-        position: fixed;
-        z-index: -1;
-        filter: brightness(0.5);
-
-    }
 
     .closemenu {
         width: 40px;
@@ -27,9 +23,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        color: #fff;
+        color: black;
         position: absolute;
-        top: 10%;
+        top: 5%;
         right: 7%;
         font-size: 32px;
         cursor: pointer;
@@ -38,66 +34,17 @@
         backdrop-filter: blur(4px);
         -webkit-backdrop-filter: blur(4px);
         border-radius: 50%;
-        border: 1px solid rgba(255, 255, 255, 0.18);
+        border: 1px solid black;
     }
 
-    // .closemenu:hover {
-    //     animation: rotation 5s infinite linear;
-    // }
-
-    // @keyframes rotation {
-    //     0% {
-    //         transform: rotate(350turn);
-    //         border: 1px solid green;
-    //     }
-
-    //     10% {
-    //         border: 1px solid var(--red);
-    //     }
-
-    //     20% {
-    //         border: 1px solid dodgerblue;
-    //     }
-
-    //     30% {
-    //         border: 1px solid darkorchid;
-    //     }
-
-    //     40% {
-    //         border: 1px solid yellow;
-    //     }
-
-    //     50% {
-    //         border: 1px solid black;
-    //     }
-
-    //     60% {
-    //         border: 1px solid aqua;
-    //     }
-
-    //     70% {
-    //         border: 1px solid lightgreen;
-    //     }
-
-    //     80% {
-    //         border: 1px solid orange;
-    //     }
-
-    //     90% {
-    //         border: 1px solid deeppink;
-    //     }
-
-    //     100% {
-    //         border: 1px solid cyan;
-    //     }
-    // }
 
     .nav_elements {
         width: 100%;
+        top: 15%;
         position: relative;
-        top: 18%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         gap: 10px;
         padding: 0 10px;
 
@@ -127,6 +74,11 @@
 
         li:hover {
             background-color: black;
+
+            a {
+                color: white;
+            }
+
             .sidebar_icon_sjow {
                 opacity: 1;
             }

@@ -8,12 +8,9 @@ import makro from "../../assets/6 page/03.png";
 const Buy = () => {
   return (
     <div className="buy_info">
-      
-        <div className="buy_background_img" id="buy">
-          <img src={backImg} alt="" />
-        </div>
-        
-      
+      <div className="buy_background_img" id="buy">
+        <img src={backImg} alt="" />
+      </div>
 
       <div className="container buy_page">
         <div className="buy_text_line">
@@ -47,7 +44,6 @@ const Buy = () => {
             </span>
           </div>
         </div>
-
       </div>
     </div>
   );

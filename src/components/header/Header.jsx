@@ -88,14 +88,14 @@ const Header = () => {
             className={category == "buy" ? "nav_link active" : "nav_link"}
             onClick={() => changeCatg("buy")}
           >
-            <a href="#">{t("header_elements.el_4")}</a>
+            <a href="#buy">{t("header_elements.el_4")}</a>
           </li>
           <li
             ref={nav_link}
             className={category == "contact" ? "nav_link active" : "nav_link"}
             onClick={() => changeCatg("contact")}
           >
-            <a href="#">{t("header_elements.el_5")}</a>
+            <a href="#contact">{t("header_elements.el_5")}</a>
           </li>
         </ul>
         <div className="lang">
