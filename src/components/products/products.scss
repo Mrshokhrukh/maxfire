@@ -1,3 +1,5 @@
+@import '../../styles/mixins.scss';
+
 .products_page {
   position: relative;
   width: 100%;
@@ -15,6 +17,13 @@
 
 }
 
+
+
+.products_text_line {
+
+  position: relative;
+  @include clients_text_line(var(--red), white);
+}
 
 
 .card {

@@ -19,6 +19,30 @@
             text-align: center;
             transform: rotate(2deg);
         }
+
+        @media(max-width:1440px) {
+            span {
+                font-size: 36px;
+            }
+        }
+
+        @media(max-width:1140px) {
+            span {
+                font-size: 28px;
+            }
+        }
+
+        @media(max-width:768px) {
+            span {
+                font-size: 22px;
+            }
+        }
+
+        @media(max-width:501px) {
+            span {
+                font-size: 18px;
+            }
+        }
     }
 
     .line {
@@ -28,5 +52,11 @@
         height: 3px;
         width: 100%;
         background-color: $color;
+    }
+
+    @media(max-width:768px) {
+        .line {
+            transform: translateY(500%);
+        }
     }
 }

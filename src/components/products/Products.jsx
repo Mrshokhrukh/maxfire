@@ -50,13 +50,11 @@ const Products = () => {
         <img src={backImg} alt="" />
       </div>
       <div className="products_page" id="products">
-        <div className="text_box_products_page">
-          <div className="products_text_line">
-            <div className="rotated_text_btn">
-              <p>Брикеты</p>
-            </div>
-            <div className="line"></div>
+        <div className="products_text_line container">
+          <div className="rotated_text_btn">
+            <span>Брикеты</span>
           </div>
+          <div className="line"></div>
         </div>
 
         <div className="products_container">

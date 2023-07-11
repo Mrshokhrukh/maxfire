@@ -154,6 +154,7 @@
         .footer_form {
             height: auto;
             padding: 20px 0;
+
         }
 
         .address_footer {
@@ -216,8 +217,6 @@
 
     .phoneNumber {
 
-
-
         a {
             display: flex;
             gap: 10px;
@@ -266,5 +265,42 @@
             }
 
         }
+    }
+
+    @media(max-width:992px) {
+        .logo img {
+            width: 100px;
+
+        }
+
+        .phoneNumber {
+            .phone_icon {
+                width: 30px;
+                height: 30px;
+            }
+
+            .number p {
+                font-size: 18px;
+            }
+        }
+
+        .socialMedia {
+            .social_icons .social_icon {
+                width: 30px;
+                height: 30px;
+
+            }
+        }
+    }
+
+}
+
+@media(max-width:992px) {
+    .phone_social_footer {
+        flex-direction: column;
+        width: 100%;
+        padding: 25px;
+        align-items: flex-start;
+        justify-content: space-evenly;
     }
 }

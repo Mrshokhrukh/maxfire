@@ -4,6 +4,13 @@
   width: 100%;
 }
 
+@media(max-width:768px) {
+  .traffic_page {
+    height: 55vh;
+  }
+}
+
+
 .track_background_img {
   position: absolute;
   z-index: -1;
@@ -32,6 +39,7 @@
   gap: 55px;
   padding-left: 50px;
   padding-top: 25px;
+
 }
 
 @media(max-width:1530px) {
@@ -43,7 +51,7 @@
 @media(max-width:1200px) {
   .traffic_page_info {
     gap: 30px;
-    justify-content: center;
+
   }
 }
 
@@ -58,7 +66,7 @@
     padding-left: 0px;
     width: 100%;
     gap: 20px;
-    justify-content: center;
+
   }
 }
 
