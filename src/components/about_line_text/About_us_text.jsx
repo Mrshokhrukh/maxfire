@@ -4,7 +4,7 @@ const Category_text = ({ text }) => {
   return (
     <div className="about_us_text_line">
       <div className="rotated_text_btn">
-        <p>{text}</p>
+        <span>{text}</span>
       </div>
       <div className="line"></div>
     </div>

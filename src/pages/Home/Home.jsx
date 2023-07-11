@@ -8,6 +8,7 @@ import Products from "../../components/products/Products";
 import Buy from "../../components/buy/Buy";
 import Traffic from "../../components/traffics/Traffic";
 import ChooseUs from "../../components/chooseUs/ChooseUs";
+import ClientsPage from "../../components/clientsPage/ClientsPage";
 const Home = () => {
   return (
     <>
@@ -23,6 +24,7 @@ const Home = () => {
         <Buy />
         <Traffic />
         <ChooseUs />
+        <ClientsPage />
       </div>
     </>
   );
