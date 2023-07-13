@@ -34,6 +34,7 @@
 
 
 
+
     .about_youtube_video {
         position: relative;
         width: 100%;
@@ -42,6 +43,8 @@
         border-radius: 30px;
         overflow: hidden;
         @extend .center;
+        z-index: 1;
+        cursor: pointer;
 
         video {
             width: 100%;
@@ -49,6 +52,7 @@
             background-position: center;
             object-fit: cover;
             background-size: cover;
+            
         }
 
         .youtube_icon {
@@ -147,10 +151,16 @@
     @media (max-width:1200px) {}
 }
 
+@media(max-width:768px) {
+    .about {
+
+        padding-bottom: 40px !important;
+    }
+}
+
 @media(max-height:725px) {
     .about {
         gap: 40px;
-
     }
 }
 
@@ -158,7 +168,6 @@
     .about {
         gap: 30px;
         height: 75vh;
-
     }
 }
 

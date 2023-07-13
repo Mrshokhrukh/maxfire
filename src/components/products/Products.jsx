@@ -16,11 +16,10 @@ const Products = () => {
   const [isCenter, setIsCenter] = useState(false);
   const [width, setWidth] = useState(window.innerWidth);
 
-
   return (
     <>
-      <div className="background_img">
-        <img src={backImg} alt="" />
+      <div className="products_background_img">
+        {/* <img src={backImg} alt="" /> */}
       </div>
       <div className="products_page" id="products">
         <div className="products_text_line container">
@@ -40,12 +39,13 @@ const Products = () => {
                 slidesPerView: 2,
                 spaceBetween: 10,
               },
-              868: {
+              901: {
                 slidesPerView: 3,
                 spaceBetween: 20,
               },
-              992: {
-                slidesPerView: 3.5,
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 25,
               },
               1201: {
                 slidesPerView: 3.5,
@@ -58,6 +58,10 @@ const Products = () => {
                 slidesPerView: 4.5,
                 spaceBetween: 50,
               },
+              1600: {
+                slidesPerView: 4.5,
+                spaceBetween: 50,
+              },
             }}
             slidesPerView={4.3}
             centeredSlides={false}
@@ -65,6 +69,7 @@ const Products = () => {
             pagination={{
               clickable: true,
             }}
+            navigation={true}
             autoplay={{
               delay: 2500,
               disableOnInteraction: false,
@@ -72,37 +77,38 @@ const Products = () => {
             modules={[Pagination, Autoplay, Navigation]}
             className="mySwiper"
           >
-            {products?.map((card, i) => {
-              return (
-                <SwiperSlide key={i}>
-                  <div className="card">
-                    <img src={card.img} alt="" id="img" />
-
-                    <div className="product_info">
-                      <div className="product_name">
-                        <h2>{card.name}</h2>
-                        <h2>{card.weight}</h2>
-                      </div>
-                      <div className="full_info">
-                        <div className="p_i_left">
-                          <p>производство:</p>
-                          <p>время горения:</p>
-                          <p>мин. объем заказа:</p>
-                          <p>используется для:</p>
+            <div className="overflow_hidden_products">
+              {products?.map((card, i) => {
+                return (
+                  <SwiperSlide key={i}>
+                    <div className="card">
+                      <img src={card.img} alt="" id="img" />
+                      <div className="product_info">
+                        <div className="product_name">
+                          <h2>{card.name}</h2>
+                          <h2>{card.weight}</h2>
                         </div>
-                        <div className="p_i_right">
-                          <p>{card.location}</p>
-                          <p>{card.time}</p>
-                          <p>{card.min_order}</p>
-                          <p>{card.used_for}</p>
+                        <div className="full_info">
+                          <div className="p_i_left">
+                            <p>производство:</p>
+                            <p>время горения:</p>
+                            <p>мин. объем заказа:</p>
+                            <p>используется для:</p>
+                          </div>
+                          <div className="p_i_right">
+                            <p>{card.location}</p>
+                            <p>{card.time}</p>
+                            <p>{card.min_order}</p>
+                            <p>{card.used_for}</p>
+                          </div>
                         </div>
+                        <button className="price_btn">{card.price}</button>
                       </div>
-                      <button className="price_btn">{card.price}</button>
                     </div>
-                  </div>
-                </SwiperSlide>
-              );
-            })}
+                  </SwiperSlide>
+                );
+              })}
+            </div>
           </Swiper>
         </div>
       </div>

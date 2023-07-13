@@ -17,7 +17,9 @@ const About = () => {
       </div>
       <div id="about" className="about container">
         {/* <img src={line} alt="" className="line_img" /> */}
+       
         <Category_text text={"О Нас"} />
+       
         <div className="about_text">
           <p>
             Max fire - Производим уголь с 2014 года. Общая производительность
@@ -31,7 +33,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="about_youtube_video">
+        <div className="about_youtube_video" onClick={() => (window.location.href = "https://youtu.be/0UKTXivgZ0U")}>
           <div className="youtube_icon">
             <a href="https://youtu.be/0UKTXivgZ0U" target="_blank">
               <img src={yu} alt="404" />

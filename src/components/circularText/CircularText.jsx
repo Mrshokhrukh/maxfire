@@ -5,8 +5,16 @@ const CircularText = ({ text, icon }) => {
     a();
   }, [text]);
   let a = () => {
-    const text = document.querySelector(".circle_text p");
+    const text = document.querySelectorAll(".circle_text p")[0];
+    const text1 = document.querySelectorAll(".circle_text p")[1];
     text.innerHTML = text.innerText
+      .split("")
+      .map(
+        (char, i) =>
+          `<span style='transform:rotate(${i * 6.4}deg)'>${char}</span>`
+      )
+      .join("");
+    text1.innerHTML = text.innerText
       .split("")
       .map(
         (char, i) =>

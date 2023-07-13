@@ -10,7 +10,7 @@ const HomePage = () => {
       <div className="homepage_text">
         <div>
           <h1 className="text">
-            высококачественний <br /> древесный уголь
+            <span>высококачественний</span> <br /> древесный уголь
           </h1>
           <div className="adv_text">
             <p>Без дыма и запаха</p>

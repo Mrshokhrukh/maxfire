@@ -12,9 +12,6 @@
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
 
-    a {
-        color: black;
-    }
 
 
     .closemenu {
@@ -48,7 +45,7 @@
         gap: 10px;
         padding: 0 10px;
 
-        li {
+        a {
             height: 100%;
             padding: 12px;
             border: 1px solid var(--red);
@@ -72,12 +69,12 @@
 
         }
 
-        li:hover {
+        a:hover {
             background-color: black;
+            color: white;
 
-            a {
-                color: white;
-            }
+
+
 
             .sidebar_icon_sjow {
                 opacity: 1;

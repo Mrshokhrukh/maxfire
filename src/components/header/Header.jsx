@@ -22,6 +22,7 @@ const Header = () => {
 
   useEffect(() => {
     const onResize = () => {
+      
       if (window.innerWidth > 768 && window.scrollY > 50) {
         header.current.style.top = "0";
         header.current.style.boxShadow =

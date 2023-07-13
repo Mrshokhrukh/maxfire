@@ -84,15 +84,29 @@
         }
     }
 
+
+
     @media(max-width:502px) {
         h1 {
-            font-size: 30px;
+            font-size: 26px;
         }
 
         .adv_text {
             height: 30px;
             font-size: 19px;
             padding: 0px 16px;
+        }
+    }
+
+    @media(max-width:401px) {
+        h1 {
+            font-size: 26px;
+        }
+
+        .adv_text {
+            height: 30px;
+            font-size: 16px;
+            padding: 3px 15px;
         }
     }
 }
@@ -109,5 +123,8 @@
     }
 }
 
-
-
+@media(max-width:502px) {
+    .homepage_text {
+        padding-top: 150px;
+    }
+}
