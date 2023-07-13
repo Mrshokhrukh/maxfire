@@ -7,22 +7,22 @@ import { useRef } from "react";
 import { useTranslation } from "react-i18next";
 
 const Header = () => {
-  const [t, i18n] = useTranslation("global");
   let header = useRef(null);
   let nav_link = useRef(null);
   const [isOpen, setIsOpen] = useState(false);
   const [category, setCategory] = useState("");
-  const sidebarOpen = () => {
-    setIsOpen(!isOpen);
-  };
+  const [t, i18n] = useTranslation("global");
 
   const changeLanguage = (lang) => {
     i18n.changeLanguage(lang);
   };
 
+  const sidebarOpen = () => {
+    setIsOpen(!isOpen);
+  };
+
   useEffect(() => {
     const onResize = () => {
-      
       if (window.innerWidth > 768 && window.scrollY > 50) {
         header.current.style.top = "0";
         header.current.style.boxShadow =

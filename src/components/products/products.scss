@@ -14,7 +14,7 @@
   top: 20%;
 }
 
-@media(max-width:768px){
+@media(max-width:768px) {
   .products_container {
 
     top: 10%;
@@ -148,10 +148,17 @@
   }
 }
 
+@media (max-width: 502px) {
+  .card {
+    height: 450px;
+    width: 320px;
+  }
+}
+
 @media (max-height:820px) {
   .card {
-    height: 500px;
-    
+    height: 85%;
+
 
     .product_info {
       padding: 5px 15px;
