@@ -3,31 +3,29 @@ import "./InfoBoxTwo.scss";
 import blured from "../../assets/shape.png";
 import { BsArrowRight } from "react-icons/bs";
 import right from "../../assets/down-arrow.png";
+import { useTranslation } from "react-i18next";
 const InfoBoxTwo = () => {
+  const [t, i18n] = useTranslation("global");
   return (
     <div className="desc_infogram">
       <div className="infogram_back_blur_img" >
         <img src={blured} alt="" />
       </div>
       <h1>
-        <span className="starter_text">Стартер </span> - для розжига угля
+        <span className="starter_text">{t('fourth_page.starter_text')} </span> - {t('fourth_page.after_starter_text')}
       </h1>
       <div className="infogram_text">
         <p>
-          <img src={right} alt="" className="right_arrow_img" /> изготовлен из
-          качественного металла толщиной 0,5 мм
+          <img src={right} alt="" className="right_arrow_img" /> {t('fourth_page.text_1')}
         </p>
         <p>
-          <img src={right} alt="" className="right_arrow_img" /> стильная и
-          удобная ручка из дуба не порежет пальцы
+          <img src={right} alt="" className="right_arrow_img" /> {t('fourth_page.text_2')}
         </p>
         <p>
-          <img src={right} alt="" className="right_arrow_img" /> диаметр
-          стартера 18 см, высота 30 см
+          <img src={right} alt="" className="right_arrow_img" /> {t('fourth_page.text_3')}
         </p>
         <p>
-          <img src={right} alt="" className="right_arrow_img" /> идеальный объем
-          для 2 кг брикета
+          <img src={right} alt="" className="right_arrow_img" /> {t('fourth_page.text_4')}
         </p>
       </div>
     </div>

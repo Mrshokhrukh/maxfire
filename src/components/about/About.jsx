@@ -8,8 +8,10 @@ import CircularText from "../circularText/CircularText";
 // import plan from "../../assets/play-button (1).png";
 import { IoPlayOutline } from "react-icons/io5";
 import Category_text from "../about_line_text/About_us_text";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  const [t, i18n] = useTranslation("global");
   return (
     <div>
       <div className="about_back_img_about">
@@ -17,23 +19,19 @@ const About = () => {
       </div>
       <div id="about" className="about container">
         {/* <img src={line} alt="" className="line_img" /> */}
-       
-        <Category_text text={"О Нас"} />
-       
+
+        <Category_text text={`${t("third_page.about_text")}`} />
+
         <div className="about_text">
-          <p>
-            Max fire - Производим уголь с 2014 года. Общая производительность
-            наших печей составляет более 200 тонн древесного угля в месяц.
-          </p>
-          <p>
-            Наша компания зарекомендовала себя как надежный производитель
-            качественного древесного угля! Мы строго контролируем все
-            производственные процессы: начиная от выбора и заготовки древесины и
-            заканчивая контролем качества фасовки и своевременной доставки.
-          </p>
+          <p>{t("third_page.desc")}</p>
         </div>
 
-        <div className="about_youtube_video" onClick={() => (window.location.href = "https://youtu.be/0UKTXivgZ0U")}>
+        <div
+          className="about_youtube_video"
+          onClick={() =>
+            (window.location.href = "https://youtu.be/0UKTXivgZ0U")
+          }
+        >
           <div className="youtube_icon">
             <a href="https://youtu.be/0UKTXivgZ0U" target="_blank">
               <img src={yu} alt="404" />

@@ -4,21 +4,22 @@
     "el_2": "biz haqimizda",
     "el_3": "mahsulotlar",
     "el_4": "sotib olish",
-    "el_5": "Kontaktlar"
+    "el_5": "Bog'lanish"
   },
 
   "home_page_text": {
-    "main_text": "yuqori sifatli ko'mir",
-    "btn_text": "Tutun va hidsiz",
-    "age_medal": "10+ yildan ortiq sotuvlar"
+    "main_text": "Yuqori sifatli",
+    "main_text_br": "qadoqlangan ko'mir",
+    "btn_text": "zararli tutun va hidsiz",
+    "age_medal": "10 yildan ortiq siz bilanmiz"
   },
 
   "second_page": {
-    "main_text": "KO‘G‘IR BRIKETI",
-    "desc": "go'sht, baliq, parranda go'shti va boshqa turli xil idishlarni panjara, panjara va barbekyularda tez va xavfsiz pishirish uchun mo'ljallangan.",
+    "main_text": "Qadoqlangan briket ko'mir",
+    "desc": "go'sht, baliq, parranda go'shti va boshqa turli xil taomlarni barbekyularda tez va xavfsiz pishirish uchun mo'ljallangan.",
     "btn_1": "tabiiy",
-    "btn_2": "uzoqroq yonish",
-    "btn_3": "2x issiq"
+    "btn_2": "uzoq yonuvchan",
+    "btn_3": "2x issiqlik"
   },
 
   "third_page": {
@@ -27,7 +28,8 @@
 
   },
   "fourth_page": {
-    "starter_text": "Starter - ko'mirni yoqish uchun",
+    "starter_text": "Starter",
+    "after_starter_text": "ko'mirni yoqish uchun",
     "text_1": "0,5 mm qalinlikdagi yuqori sifatli metalldan tayyorlangan",
     "text_2": "zamonaviy va qulay eman dastasi barmoqlaringizni kesmaydi",
     "text_3": "starter diametri 18 sm, balandligi 30 sm",
