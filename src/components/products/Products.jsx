@@ -37,6 +37,7 @@ const Products = () => {
               620: {
                 slidesPerView: 2,
                 spaceBetween: 10,
+                navigation: false,
               },
               901: {
                 slidesPerView: 3,
