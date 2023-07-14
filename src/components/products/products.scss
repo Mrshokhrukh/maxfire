@@ -26,6 +26,7 @@
 .products_text_line {
   position: relative;
   top: 5%;
+  margin: 10px 0;
   @include clients_text_line(var(--red), white);
 }
 
@@ -63,6 +64,7 @@
   width: 300px;
   height: 500px;
   // margin: 50px 0;
+  margin: auto;
   background-color: rgb(255, 255, 255);
   border-radius: 20px;
   display: flex;

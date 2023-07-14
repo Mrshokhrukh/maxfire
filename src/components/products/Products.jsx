@@ -64,7 +64,7 @@ const Products = () => {
               },
             }}
             slidesPerView={4.3}
-            centeredSlides={false}
+            centeredSlides={true}
             spaceBetween={50}
             navigation={true}
             pagination={{

@@ -4,6 +4,12 @@
   position: relative;
 }
 
+@media (max-width: 502px) {
+  .homepage {
+    height: 90vh;
+  }
+  
+}
 
 .homepage_text {
   height: 100%;
@@ -91,7 +97,7 @@
     .adv_text {
       height: 30px;
       font-size: 19px;
-      padding: 0px 16px;
+      padding: 3px 16px;
     }
   }
 
