@@ -10,19 +10,21 @@ import carr from "../../assets/последние/carrefour logo.png";
 import gosh from "../../assets/последние/gosht logo.png";
 import kar from "../../assets/последние/korzinka log.png";
 import makon from "../../assets/последние/makon logo.png";
+import { useTranslation } from "react-i18next";
 const ClientsPage = () => {
+  const [t, i18n] = useTranslation("global");
   return (
     <div className="clientPage container">
       <div className="clients_text_line">
         <div className="rotated_text_btn">
-          <span>наши клиенты</span>
+          <span>{t("night_page.main_text")}</span>
         </div>
         <div className="line"></div>
       </div>
 
       <div className="about_cmpanies">
         <div className="text_about_clients">
-          <p>Работаем на постоянной основе с более 50 компаниями</p>
+          <p>{t("night_page.info")}</p>
         </div>
 
         <div className="companies_collabs">
@@ -37,8 +39,6 @@ const ClientsPage = () => {
           <img src={kar} alt="" />
           <img src={makon} alt="" />
         </div>
-
-        
       </div>
     </div>
   );

@@ -2,7 +2,10 @@ import React from "react";
 import "./traffic.scss";
 import circle from "../../assets/7 page/ellips.png";
 import backImg2 from "../../assets/7 page/background.png";
+import { useTranslation } from "react-i18next";
 const Traffic = () => {
+  const [t, i18n] = useTranslation("global");
+
   return (
     <div className="traffic_page">
       <div className="track_background_img">
@@ -13,27 +16,19 @@ const Traffic = () => {
         <div className="traffic_page_info">
           <div className="main_texts">
             <div className="wrapp">
-              <h1>Услуга</h1>
-              <img src={circle} alt="" className="cirlce_img" />
+              <h1>{t("seven_page.main_text")}</h1>
+              {/* <img src={circle} alt="" /> */}
             </div>
-            <p className="delivery_text">доставки по узбекистану</p>
+            <p>{t("seven_page.info_1")}</p>
           </div>
-          <div className="grant_info_text">
-            <p>
-              Доставим ваш заказ в течени <br /> 1-10 дней в зависимости от
-              объема
-            </p>
+          <div className="grant_info">
+            <p>{t("seven_page.info_2")}</p>
           </div>
 
-          <div className="btn_big_box_text">
-            При заказа от 100 шт доставка за наш счет.
-          </div>
+          <div className="btn_big_box">{t("seven_page.info_3")}</div>
 
           <div className="last_location_text">
-            <p>
-              Также вы можете сделать самовывоз <br /> с нашего завода в
-              Ташкенте.
-            </p>
+            <p>{t("seven_page.info_4")}</p>
           </div>
         </div>
       </div>

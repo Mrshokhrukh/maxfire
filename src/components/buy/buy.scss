@@ -1,4 +1,4 @@
-@import '../../styles/mixins.scss';
+@import "../../styles/mixins.scss";
 
 .buy_info {
   position: relative;
@@ -29,7 +29,7 @@
 .buy_text_line {
   padding-top: 30px;
   width: 100%;
-  @include clients_text_line(#fff, var(--red))
+  @include clients_text_line(#fff, var(--red));
 }
 
 .buy_page_main {
@@ -39,7 +39,7 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 20px;
-  
+
   .buy_page_main_left {
     display: grid;
     gap: 25px;
@@ -50,8 +50,6 @@
       font-weight: 200 !important;
       text-align: justify;
     }
-
-
 
     @media (max-width: 1200px) {
       span {
@@ -153,5 +151,6 @@
   .buy_page_main {
     display: flex;
     flex-direction: column;
+    align-items: start;
   }
 }
