@@ -23,7 +23,6 @@
   flex-direction: column;
   gap: 70px;
   padding: 40px 0;
-
   .about_text {
     color: #fff;
     font-size: 24px;
@@ -65,13 +64,6 @@
       }
     }
   }
-
-  //   @media (max-height: 726px) {
-  //     .about_youtube_video {
-  //       height: 50%;
-
-  //     }
-  //   }
 
   .play_btn_icon {
     position: absolute;
@@ -142,6 +134,20 @@
   }
 }
 
+@media (max-height: 726px) {
+  .about {
+    position: relative;
+    top: 0;
+    gap: 20px;
+    padding-bottom: 15px 0;
+  }
+}
+@media ((max-height: 726px)and (max-width:768px)) {
+  .about {
+    height: 100vh;
+  }
+}
+
 @media (max-width: 768px) {
   .about {
     padding-bottom: 40px !important;
@@ -150,11 +156,14 @@
 
 // @media (max-height: 725px) {
 //   .about {
-//     gap: 40px;
-//     height: auto;
+//     background-color: rebeccapurple;
+//     height: 100vh;
+//     margin-top: 10px;
+//     .about_youtube_video {
+//       height: 500px !important;
+//     }
 //   }
 // }
-
 
 @media (max-width: 768px) {
   .about {
