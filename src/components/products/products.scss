@@ -140,7 +140,7 @@
       width: 50%;
       border-radius: 10px;
       height: 30px;
-      font-size: 18px;
+      font-size: 22px;
       font-weight: bold;
       color: #fff;
       border: none;
@@ -160,11 +160,17 @@
 
 @media (max-width: 502px) {
   .card {
-    height: 450px;
+    height: auto !important;
     width: 320px;
+    padding-bottom: 10px;
 
-    .product_info .price_btn {
-      width: 100%;
+
+    .product_info {
+      padding: 5px 5px !important;
+
+      .price_btn {
+        width: 100%;
+      }
     }
   }
 }
@@ -175,7 +181,7 @@
 
     // margin-top: 100px;
     .product_info {
-      padding: 5px 15px;
+      padding: 5px 5px;
       gap: 15px;
     }
 

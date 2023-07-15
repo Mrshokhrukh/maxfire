@@ -27,7 +27,11 @@ const ChooseUs = () => {
         </div>
 
         <div className="eighth_page_info_boxes">
-          <div className="box_guarent">
+          <div
+            className="box_guarent"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+          >
             <div className="img_round">
               <img src={grImg} alt="" />
             </div>
@@ -38,7 +42,11 @@ const ChooseUs = () => {
               <p>{t("eight_page.info_1")}</p>
             </div>
           </div>
-          <div className="box_lorry">
+          <div
+            className="box_lorry"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+          >
             <div className="img_round">
               <img src={lorryImg} alt="" />
             </div>
@@ -49,7 +57,11 @@ const ChooseUs = () => {
               <p>{t("eight_page.info_2")}</p>
             </div>
           </div>
-          <div className="box_possibilities">
+          <div
+            className="box_possibilities"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+          >
             <div className="img_round">
               <img src={delImg} alt="" />
             </div>

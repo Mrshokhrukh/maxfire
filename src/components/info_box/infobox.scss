@@ -38,19 +38,11 @@
 
     @media (max-width:768px) {
         .shape_blur_img {
-            width: 400px;
-            right: -20%;
-            top: -17%;
+            display: none;
         }
     }
 
-    @media (max-width:502px) {
-        .shape_blur_img {
-            width: 260px;
-            right: 17%;
-            top: 2%;
-        }
-    }
+
 
     .adv_info_cont {
         display: flex;

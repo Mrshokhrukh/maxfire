@@ -48,13 +48,13 @@ const Traffic = () => {
               <h1>{t("seven_page.main_text")}</h1>
               <img src={circle} alt="" className="cirlce_img" />
             </div>
-            <p>{t("seven_page.info_1")}</p>
+            <p className="delivery_text">{t("seven_page.info_1")}</p>
           </div>
-          <div className="grant_info">
+          <div className="grant_info_text">
             <p>{t("seven_page.info_2")}</p>
           </div>
 
-          <div className="btn_big_box">{t("seven_page.info_3")}</div>
+          <div className="btn_big_box_text">{t("seven_page.info_3")}</div>
 
           <div className="last_location_text">
             <p>{t("seven_page.info_4")}</p>

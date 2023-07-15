@@ -6,7 +6,12 @@
 
 @media (max-width: 768px) {
   .traffic_page {
-    height: 100vh;
+    height: 90vh;
+  }
+}
+@media (max-width: 502px) {
+  .traffic_page {
+    height: 70vh;
   }
 }
 
@@ -175,6 +180,10 @@
   @media (max-width: 502px) {
     .wrapp {
       font-size: 18px;
+    }
+
+    .cirlce_img {
+      display: none;
     }
 
     .delivery_text {
