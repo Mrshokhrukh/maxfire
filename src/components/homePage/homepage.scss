@@ -13,7 +13,7 @@
   img {
     width: 100%;
     height: 100%;
-    background-position: center;
+    background-position: bottom;
     object-fit: cover;
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,7 +22,7 @@
 
 @media (max-width: 502px) {
   .homepage {
-    height: 90vh;
+    height: 100vh;
   }
 }
 
