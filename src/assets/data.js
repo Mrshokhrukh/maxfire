@@ -1,4 +1,20 @@
-import img from "./5 page/12.png";
+// import img from "./5 page/12.png";
+import img2 from "./5 page/2.png";
+import img3 from "./5 page/3.png";
+import img4 from "./5 page/4.png";
+import img5 from "./5 page/5.png";
+import img6 from "./5 page/6.png";
+import img7 from "./5 page/7.png";
+import img8 from "./5 page/8.png";
+import img9 from "./5 page/9.png";
+import img10 from "./5 page/10.png";
+import img11 from "./5 page/11.png";
+import img12 from "./5 page/12.png";
+import img13 from "./5 page/13.png";
+import img14 from "./5 page/14.png";
+import img15 from "./5 page/15.png";
+import img16 from "./5 page/16.png";
+import img17 from "./5 page/17.png";
 export const products = [
   {
     id: 1,
@@ -9,7 +25,7 @@ export const products = [
     min_order: "50 шт",
     used_for: "мангал, шашлык",
     price: "13 000",
-    img,
+    img: img2,
   },
   {
     id: 2,
@@ -20,7 +36,7 @@ export const products = [
     min_order: "50 шт",
     used_for: "мангал, шашлык",
     price: "35 000",
-    img,
+    img: img2,
   },
   {
     id: 3,
@@ -31,7 +47,7 @@ export const products = [
     min_order: "50 шт",
     used_for: "мангал, шашлык",
     price: "33 000",
-    img,
+    img: img3,
   },
   {
     id: 4,
@@ -42,7 +58,7 @@ export const products = [
     min_order: "50 шт",
     used_for: "мангал, шашлык",
     price: "65 000",
-    img,
+    img: img4,
   },
   {
     id: 5,
@@ -53,7 +69,7 @@ export const products = [
     min_order: "50 шт",
     used_for: "мангал, шашлык",
     price: "13 000",
-    img,
+    img: img5,
   },
   {
     id: 6,
@@ -64,7 +80,7 @@ export const products = [
     min_order: "50 шт",
     used_for: "мангал, шашлык",
     price: "9 000",
-    img,
+    img: img6,
   },
   {
     id: 7,
@@ -75,7 +91,7 @@ export const products = [
     min_order: "50 шт",
     used_for: "мангал, шашлык",
     price: "12 000",
-    img,
+    img: img7,
   },
   {
     id: 8,
@@ -86,7 +102,7 @@ export const products = [
     min_order: "50 шт",
     used_for: "мангал, шашлык",
     price: "11 000",
-    img,
+    img: img8,
   },
   {
     id: 9,
@@ -97,7 +113,7 @@ export const products = [
     min_order: "50 шт",
     used_for: "мангал, шашлык",
     price: "14 000",
-    img,
+    img: img9,
   },
   {
     id: 10,
@@ -108,7 +124,7 @@ export const products = [
     min_order: "50 шт",
     used_for: "мангал, шашлык",
     price: "8 000",
-    img,
+    img: img10,
   },
   {
     id: 11,
@@ -119,7 +135,7 @@ export const products = [
     min_order: "50 шт",
     used_for: "мангал, шашлык",
     price: "12 000",
-    img,
+    img: img11,
   },
   {
     id: 12,
@@ -130,7 +146,7 @@ export const products = [
     min_order: "50 шт",
     used_for: "мангал, шашлык",
     price: "12 000",
-    img,
+    img: img12,
   },
   {
     id: 13,
@@ -141,7 +157,7 @@ export const products = [
     min_order: "50 шт",
     used_for: "мангал, шашлык",
     price: "22 000",
-    img,
+    img: img13,
   },
   {
     id: 14,
@@ -152,7 +168,7 @@ export const products = [
     min_order: "50 шт",
     used_for: "мангал, шашлык",
     price: "65 000",
-    img,
+    img: img14,
   },
   {
     id: 15,
@@ -163,7 +179,7 @@ export const products = [
     min_order: "50 шт",
     used_for: "мангал, шашлык",
     price: "14 000",
-    img,
+    img: img15,
   },
   {
     id: 16,
@@ -174,7 +190,7 @@ export const products = [
     min_order: "50 шт",
     used_for: "мангал, шашлык",
     price: "26 000",
-    img,
+    img: img16,
   },
   {
     id: 17,
@@ -185,6 +201,6 @@ export const products = [
     min_order: "1 шт",
     used_for: "мангал, шашлык",
     price: "5 000",
-    img,
+    img: img17,
   },
 ];

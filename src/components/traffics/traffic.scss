@@ -9,6 +9,7 @@
     height: 90vh;
   }
 }
+
 @media (max-width: 502px) {
   .traffic_page {
     height: 100vh;
@@ -33,6 +34,12 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+
+@media (max-width: 512px) {
+  .main_about_right {
+    padding: 0 40px !important;
+  }
 }
 
 .traffic_page_info {

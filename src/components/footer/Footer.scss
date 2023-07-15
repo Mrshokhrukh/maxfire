@@ -196,7 +196,7 @@
 }
 
 .phone_social_footer {
-  height: 25vh;
+  height: 27vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -281,17 +281,17 @@
 }
 
 @media (max-width: 992px) {
- 
   .phone_social_footer {
-    flex-direction: column;
+    height: auto;
     width: 100%;
-    padding: 25px;
+    flex-direction: column;
     align-items: center;
-
+    gap: 20px;
+    padding: 25px 0 !important;
     justify-content: space-evenly;
 
     .phoneNumber {
-
+      border-bottom: 1px solid gray;
       .phone_icon {
         width: 30px;
         height: 30px;
@@ -302,6 +302,9 @@
     .socialMedia {
       justify-content: center;
       align-items: center;
+      flex-direction: column-reverse;
+      padding: 10px 0;
+      border-bottom: 1px solid gray;
 
       .social_icon {
         transform: scale(1.2);

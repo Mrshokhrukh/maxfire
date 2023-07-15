@@ -36,12 +36,18 @@ const Buy = () => {
                 </a>
               </div>
               <div className="brands_img two">
-                <a href="https://www.instagram.com/havasuz/?hl=en" target="_blank">
+                <a
+                  href="https://www.instagram.com/havasuz/?hl=en"
+                  target="_blank"
+                >
                   <img src={havas} alt="" />
                 </a>
               </div>
               <div className="brands_img three">
-                <a href="https://www.instagram.com/makro_supermarket/" target="_blank">
+                <a
+                  href="https://www.instagram.com/makro_supermarket/"
+                  target="_blank"
+                >
                   <img src={makro} alt="" />
                 </a>
               </div>

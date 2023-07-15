@@ -40,14 +40,12 @@
 //   padding: 16px;
 // }
 
-
 .swiper-container {
-  // margin-top: 50px;
+  // margin-top: 50px;/
   width: 100% !important;
   position: relative;
   height: auto;
   padding: 20px 0;
-
 }
 
 // .swiper-slide {
@@ -92,11 +90,12 @@
     flex-direction: column;
     gap: 20px;
     padding: 5px 15px;
+    text-transform: capitalize;
 
     .product_name {
       display: flex;
       justify-content: space-between;
-
+      margin: 0 5px;
       h2 {
         font-size: 16px;
         color: var(--red);
@@ -164,9 +163,8 @@
     width: 320px;
     padding-bottom: 10px;
 
-
     .product_info {
-      padding: 5px 5px !important;
+      padding: 5px 15px !important;
 
       .price_btn {
         width: 100%;
@@ -195,7 +193,6 @@
   width: 8px;
   height: 8px;
   display: none;
-
 }
 
 .swiper-pagination-bullet:hover {

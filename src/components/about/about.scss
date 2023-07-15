@@ -133,6 +133,11 @@
   @media (max-width: 1200px) {
   }
 }
+@media (max-width: 512px) {
+  .about {
+    padding: 0 30px !important;
+  }
+}
 
 @media (max-height: 726px) {
   .about {

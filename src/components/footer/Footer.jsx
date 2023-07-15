@@ -59,17 +59,17 @@ const Footer = () => {
           <p>{t('footer.media_text')}</p>
           <div className="social_icons">
             <div className="social_icon">
-              <a href="#">
+              <a href="https://instagram.com/maxfire.uz?igshid=MzRlODBiNWFlZA==">
                 <img src={ins} alt="" />
               </a>
             </div>
             <div className="social_icon">
-              <a href="#">
+              <a href="https://t.me/maxfireuz">
                 <img src={tg} alt="" />
               </a>
             </div>
             <div className="social_icon">
-              <a href="#">
+              <a href="https://www.youtube.com/channel/UCRIsBKCeGp4We6AXktB5ISQ">
                 <img src={fac} alt="" />
               </a>
             </div>

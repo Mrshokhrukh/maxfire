@@ -3,16 +3,19 @@
 .clientPage {
   position: relative;
   width: 100%;
-  padding: 0 25px;
-}
-
-.clientPage {
+  // padding: 0 25px;
   height: auto !important;
   padding: 20px 10px !important;
   padding-bottom: 50px !important;
 }
-@media(max-width:768px){
-  .clientPage{
+@media (max-width: 512px) {
+  .clientPage {
+    padding: 0 40px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .clientPage {
     padding-bottom: 20px !important;
   }
 }
@@ -56,7 +59,6 @@
   @media (max-width: 768px) {
     .text_about_clients {
       font-size: 18px;
-
     }
   }
 }

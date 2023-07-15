@@ -23,8 +23,7 @@ const Products = () => {
       <div
         className="products_page"
         id="products"
-        data-aos="fade-up"
-        data-aos-anchor-placement="top-bottom"
+        
       >
         <div className="products_text_line container">
           <div className="rotated_text_btn">

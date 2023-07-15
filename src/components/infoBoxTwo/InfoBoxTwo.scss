@@ -70,58 +70,116 @@
   .infogram_text {
     display: flex;
     flex-direction: column;
+
     gap: 20px;
     font-size: 18px;
   }
   @media (max-width: 768px) {
     .infogram_text {
       gap: 10px;
-    }
-  }
+      justify-content: center;
+      position: relative;
 
-  @media (max-width: 992px) {
-    h1 {
-      .starter_text {
-        font-size: 45px;
+      .infogram_back_blur_img {
+        position: absolute;
+        top: 5%;
+        left: -10%;
+        z-index: -1;
+        width: 600px;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      @media (max-width: 992px) {
+        .infogram_back_blur_img {
+          position: absolute;
+          top: 10%;
+          left: -10%;
+          z-index: -1;
+          width: 450px;
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+
+      @media (max-width: 768px) {
+        .infogram_back_blur_img {
+          top: -10%;
+          left: -10%;
+          width: 280px;
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+
+      p {
+        font-weight: 500 !important;
+        gap: 10px;
+        display: flex;
+        align-items: center;
+
+        .right_arrow_img {
+          width: 18px;
+          padding-top: 3px;
+        }
       }
     }
 
-    .infogram_text {
-      font-size: 16px;
-    }
-  }
+    @media (max-width: 992px) {
+      h1 {
+        .starter_text {
+          font-size: 45px;
+        }
+      }
 
-  @media (max-width: 768px) {
-    h1 {
-      font-size: 20px;
-
-      .starter_text {
-        font-size: 36px;
+      .infogram_text {
+        font-size: 16px;
       }
     }
 
-    .infogram_text {
-      font-size: 16px;
-      text-align: justify;
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 20px;
+
+        .starter_text {
+          font-size: 36px;
+        }
+      }
+
+      .infogram_text {
+        font-size: 16px;
+        text-align: justify;
+      }
     }
-  }
 
-  @media (max-width: 768px) {
-    h1 {
-      font-size: 20px;
-      margin-bottom: 20px;
-      text-align: justify;
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-align: justify;
 
-      .starter_text {
-        font-size: 30px;
+        .starter_text {
+          font-size: 30px;
+        }
       }
     }
   }
-}
+  @media (max-width: 512px) {
+    .desc_infogram {
+      padding: 0 30px !important;
+    }
+  }
 
-@media (max-width: 502px) {
-  .desc_infogram {
-    // width: 96%;
-    padding: 0 10px;
+  @media (max-width: 502px) {
+    .desc_infogram {
+      // width: 96%;
+      padding: 0 10px;
+    }
   }
 }
