@@ -22,22 +22,46 @@ const ClientsPage = () => {
         <div className="line"></div>
       </div>
 
-      <div className="about_cmpanies">
+      <div
+        className="about_cmpanies"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+      >
         <div className="text_about_clients">
           <p>{t("night_page.info")}</p>
         </div>
 
         <div className="companies_collabs">
-          <img src={svet} alt="" />
-          <img src={mar} alt="" />
-          <img src={shash} alt="" />
-          <img src={mac} alt="" />
-          <img src={saf} alt="" />
-          <img src={emin} alt="" />
-          <img src={carr} alt="" />
-          <img src={gosh} alt="" />
-          <img src={kar} alt="" />
-          <img src={makon} alt="" />
+          <a href="https://www.instagram.com/svetofor_taraz_alfarabi/">
+            <img src={svet} alt="" />
+          </a>
+          <a href="https://www.instagram.com/marinno_shashlik_market/">
+            <img src={mar} alt="" />
+          </a>
+          <a href="https://www.instagram.com/shashlik_marinad.uz/">
+            <img src={shash} alt="" />
+          </a>
+          <a href="https://www.instagram.com/makro_supermarket/">
+            <img src={mac} alt="" />
+          </a>
+          <a href="https://www.instagram.com/safia_uz/">
+            <img src={saf} alt="" />
+          </a>
+          <a href="https://www.instagram.com/emin.marinad/">
+            <img src={emin} alt="" />
+          </a>
+          <a href="https://www.instagram.com/carrefouruzbekistan/">
+            <img src={carr} alt="" />
+          </a>
+          <a href="https://www.instagram.com/gosht.uz/">
+            <img src={gosh} alt="" />
+          </a>
+          <a href="https://www.instagram.com/korzinkauz/">
+            <img src={kar} alt="" />
+          </a>
+          <a href="https://www.instagram.com/makon_supermarket/">
+            <img src={makon} alt="" />
+          </a>
         </div>
       </div>
     </div>

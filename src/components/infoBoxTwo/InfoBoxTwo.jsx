@@ -7,7 +7,8 @@ import { useTranslation } from "react-i18next";
 const InfoBoxTwo = () => {
   const [t, i18n] = useTranslation("global");
   return (
-    <div className="desc_infogram">
+    <div className="desc_infogram"   data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom">
       <div className="infogram_back_blur_img" >
         <img src={blured} alt="" />
       </div>

@@ -7,7 +7,11 @@ import { useTranslation } from "react-i18next";
 const InfoBox = () => {
   const [t, i18n] = useTranslation("global");
   return (
-    <div className="adv_info">
+    <div
+      className="adv_info"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+    >
       <div className="adv_info_cont">
         <div className="shape_blur_img">
           <img src={shape} alt="" />

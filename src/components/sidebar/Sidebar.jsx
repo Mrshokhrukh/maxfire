@@ -35,7 +35,7 @@ const Sidebar = ({ isOpen, close }) => {
       </div>
       <ul className="nav_elements">
         <a href="#home">
-          Главная
+          {t("header_elements.el_1")}
           <li>
             <span className="sidebar_icon_sjow">
               {" "}
@@ -45,7 +45,7 @@ const Sidebar = ({ isOpen, close }) => {
         </a>
 
         <a href="#about">
-          О Нас
+          {t("header_elements.el_2")}
           <li>
             <span className="sidebar_icon_sjow">
               {" "}
@@ -55,7 +55,7 @@ const Sidebar = ({ isOpen, close }) => {
         </a>
 
         <a href="#products">
-          Брикеты
+          {t("header_elements.el_3")}
           <li>
             <span className="sidebar_icon_sjow">
               {" "}
@@ -65,7 +65,7 @@ const Sidebar = ({ isOpen, close }) => {
         </a>
 
         <a href="#buy">
-          Где Купить?
+          {t("header_elements.el_4")}?
           <li>
             <span className="sidebar_icon_sjow">
               {" "}
@@ -75,7 +75,7 @@ const Sidebar = ({ isOpen, close }) => {
         </a>
 
         <a href="#contact">
-          Контакты
+          {t("header_elements.el_5")}
           <li>
             <span className="sidebar_icon_sjow">
               {" "}

@@ -10,6 +10,7 @@
   height: auto !important;
   padding: 20px 10px !important;
 }
+
 @font-face {
   font-family: fon1;
   src: url("../../Freigeist-Light.ttf");
@@ -73,9 +74,13 @@
 }
 
 @media (max-width: 768px) {
+
+
+
   .about_cmpanies {
     margin-top: 60px;
   }
+
   .companies_collabs {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -83,6 +88,7 @@
 
 @media (max-width: 502px) {
   .companies_collabs {
+    padding: 20px !important;
     grid-template-columns: repeat(2, 1fr);
   }
 }

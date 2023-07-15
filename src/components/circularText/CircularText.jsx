@@ -2,9 +2,6 @@ import React, { useEffect } from "react";
 import "./circular.scss";
 const CircularText = ({ text, icon }) => {
   useEffect(() => {
-    a();
-  }, [text]);
-  let a = () => {
     const text = document.querySelectorAll(".circle_text p")[0];
     const text1 = document.querySelectorAll(".circle_text p")[1];
     text.innerHTML = text.innerText
@@ -21,7 +18,8 @@ const CircularText = ({ text, icon }) => {
           `<span style='transform:rotate(${i * 6.4}deg)'>${char}</span>`
       )
       .join("");
-  };
+  }, []);
+
 
   return (
     <div

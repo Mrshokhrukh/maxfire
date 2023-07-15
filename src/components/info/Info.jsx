@@ -4,7 +4,7 @@ import back_photo from "../../assets/0.png";
 import InfoBoxTwo from "../infoBoxTwo/InfoBoxTwo";
 const Info = () => {
   return (
-    <div className="info_page">
+    <div className="info_page" >
       <div className="info_back_img">
         <img src={back_photo} alt="" />
       </div>

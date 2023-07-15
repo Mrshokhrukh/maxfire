@@ -14,8 +14,15 @@ const ChooseUs = () => {
       <video autoPlay muted loop>
         <source src={video} type="video/mp4" />
       </video>
-      <div className="our_priorities_page container">
+      <div
+        className="our_priorities_page container"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+      >
         <div className="our_priorities_page_text">
+          <div className="back_red_circle">
+            <img src={shape} alt="" />
+          </div>
           <p>{t("eight_page.main_text")}</p>
         </div>
 

@@ -38,7 +38,11 @@ const Traffic = () => {
       </div>
 
       <div className="main_about_right container">
-        <div className="traffic_page_info">
+        <div
+          className="traffic_page_info"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+        >
           <div className="main_texts">
             <div className="wrapp">
               <h1>{t("seven_page.main_text")}</h1>

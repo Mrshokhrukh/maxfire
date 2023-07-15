@@ -20,7 +20,12 @@ const Products = () => {
       <div className="products_background_img">
         {/* <img src={backImg} alt="" /> */}
       </div>
-      <div className="products_page" id="products">
+      <div
+        className="products_page"
+        id="products"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+      >
         <div className="products_text_line container">
           <div className="rotated_text_btn">
             <span>{t("fives_page.main_text")}</span>
@@ -64,7 +69,7 @@ const Products = () => {
               },
             }}
             slidesPerView={4.3}
-            centeredSlides={true}
+            centeredSlides={false}
             spaceBetween={50}
             navigation={true}
             pagination={{

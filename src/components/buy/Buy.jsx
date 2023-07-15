@@ -14,7 +14,8 @@ const Buy = () => {
         <img src={backImg} alt="" />
       </div>
 
-      <div className="container buy_page">
+      <div className="container buy_page"   data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
         <div className="buy_text_line">
           <div className="rotated_text_btn">
             <span>{t('six_page.main_text')}</span>

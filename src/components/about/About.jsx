@@ -17,7 +17,8 @@ const About = () => {
       <div className="about_back_img_about">
         <img src={backImg} alt="" />
       </div>
-      <div id="about" className="about container">
+      <div id="about" className="about container"   data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
         {/* <img src={line} alt="" className="line_img" /> */}
 
         <Category_text text={`${t("third_page.about_text")}`} />

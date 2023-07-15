@@ -281,11 +281,37 @@
 }
 
 @media (max-width: 992px) {
+ 
   .phone_social_footer {
     flex-direction: column;
     width: 100%;
     padding: 25px;
-    align-items: flex-start;
+    align-items: center;
+
     justify-content: space-evenly;
+
+    .phoneNumber {
+
+      .phone_icon {
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+      }
+    }
+
+    .socialMedia {
+      justify-content: center;
+      align-items: center;
+
+      .social_icon {
+        transform: scale(1.2);
+        padding: 6px !important;
+        border-radius: 50% !important;
+      }
+
+      .social_icon:hover {
+        transform: scale(1.3);
+      }
+    }
   }
 }

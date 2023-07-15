@@ -4,12 +4,52 @@
     display: flex;
     align-items: center;
     color: #fff;
+    position: relative;
 
     .shape_blur_img {
         position: absolute;
         z-index: -1;
-        top: 10%;
-        right: 0;
+        right: 8%;
+        top: 12%;
+        width: 500px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    @media (max-width:1612px) {
+        .shape_blur_img {
+            width: 400px;
+            right: -10%;
+            top: 12%;
+        }
+
+    }
+
+    @media (max-width:1200px) {
+        .shape_blur_img {
+            width: 400px;
+            right: -10%;
+            top: -5%;
+        }
+    }
+
+    @media (max-width:768px) {
+        .shape_blur_img {
+            width: 400px;
+            right: -20%;
+            top: -17%;
+        }
+    }
+
+    @media (max-width:502px) {
+        .shape_blur_img {
+            width: 260px;
+            right: 17%;
+            top: 2%;
+        }
     }
 
     .adv_info_cont {

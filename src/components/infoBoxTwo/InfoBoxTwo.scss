@@ -6,20 +6,47 @@
     flex-direction: column;
     justify-content: center;
     position: relative;
-   
 
     .infogram_back_blur_img {
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 5%;
+        left: -10%;
         z-index: -1;
-
-        width: 45%;
+        width: 600PX;
 
         img {
             width: 100%;
         }
     }
+
+    @media(max-width:992px) {
+        .infogram_back_blur_img {
+            position: absolute;
+            top: 10%;
+            left: -10%;
+            z-index: -1;
+            width: 450PX;
+
+            img {
+                width: 100%;
+            }
+        }
+
+    }
+
+
+    @media(max-width:768px) {
+        .infogram_back_blur_img {
+            top: -10%;
+            left: -10%;
+            width: 280PX;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
 
     p {
         font-weight: 500 !important;
