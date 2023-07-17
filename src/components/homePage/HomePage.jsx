@@ -15,21 +15,23 @@ const HomePage = () => {
     } else {
       SetIsSmall(false);
     }
-    window.addEventListener("resize", function () {
+    const handleResize = () => {
       if (window.innerWidth < 768) {
         SetIsSmall(true);
       } else {
         SetIsSmall(false);
       }
-    });
+    };
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener("resize", function () {});
+      window.removeEventListener("resize", handleResize);
     };
-  }, [window.innerWidth]);
+  }, []);
 
   return (
     <>
+    
       <div className="background_img">
         <img src={isSmall ? resHome : pageOne} alt="" />
       </div>

@@ -8,11 +8,8 @@
   padding: 20px 10px !important;
   padding-bottom: 50px !important;
 }
-@media (max-width: 512px) {
-  .clientPage {
-    padding: 0 40px !important;
-  }
-}
+
+
 
 @media (max-width: 768px) {
   .clientPage {
@@ -103,5 +100,17 @@
   .companies_collabs {
     padding-bottom: 20px;
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+// ------------------------
+@media (max-width: 512px) {
+  .clients_text_line {
+    padding-top: 15px;
+  }
+
+  .about_cmpanies {
+    padding: 0 40px !important;
+
   }
 }

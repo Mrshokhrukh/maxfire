@@ -2,15 +2,18 @@
 
 .buy_info {
   position: relative;
-  height: 500px;
+  height: auto;
   width: 100%;
+
 }
 
 @media (max-width: 768px) {
   .buy_info {
     height: auto;
-    padding: 20px 0;
+
+
   }
+
 }
 
 .buy_background_img {
@@ -29,30 +32,38 @@
 }
 
 .buy_page {
+  margin-top: 100px;
   position: relative;
   z-index: 1;
+  padding-bottom: 30px;
   // padding-top: 10px;
 }
+
 @media (max-width: 512px) {
   .buy_page {
-    padding: 0 30px !important;
+    padding: 0 30px 15px !important;
   }
 }
+
 .buy_text_line {
   width: 100%;
   @include clients_text_line(#fff, var(--red));
 }
-@media (max-width: 600px) {
-  .buy_text_line {
-    margin-top: -5px;
-  }
-}
-@media (min-width: 768px) {
-  .buy_text_line {
-    margin-top: 25px;
-  }
-}
+
+// @media (max-width: 600px) {
+//   .buy_text_line {
+//     margin-top: -5px;
+//   }
+// }
+
+// @media (min-width: 768px) {
+//   .buy_text_line {
+//     margin-top: 55px;
+//   }
+// }
+
 .buy_page_main {
+  padding: 0 0 20px 0;
   margin-top: 100px;
   width: 100%;
   display: grid;
@@ -167,17 +178,17 @@
   }
 }
 
-@media (max-width: 600px) {
-  .buy_page_main {
-    margin-top: 50px;
-    padding-bottom: 10px;
-  }
-}
 @media (max-width: 768px) {
   .buy_page_main {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: start;
+  }
+}
+
+@media (max-width: 600px) {
+  .buy_page_main {
+    padding-bottom: 20px;
   }
 }

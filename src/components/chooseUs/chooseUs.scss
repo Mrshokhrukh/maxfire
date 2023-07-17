@@ -117,6 +117,19 @@
 
     }
 
+    @media(max-width:512px) {
+        .our_priorities_page_text {
+
+
+
+            p {
+                text-align: center;
+                padding: 0;
+            }
+        }
+
+    }
+
 
     .eighth_page_info_boxes {
         margin-top: 100px;

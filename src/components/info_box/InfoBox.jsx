@@ -9,8 +9,8 @@ const InfoBox = () => {
   return (
     <div
       className="adv_info"
-      data-aos="fade-up"
-      data-aos-anchor-placement="top-bottom"
+      // data-aos="fade-up"
+      // data-aos-anchor-placement="top-bottom"
     >
       <div className="adv_info_cont">
         <div className="shape_blur_img">

@@ -18,13 +18,9 @@ const Products = () => {
   return (
     <>
       <div className="products_background_img">
-        {/* <img src={backImg} alt="" /> */}
+        <img src={backImg} alt="" />
       </div>
-      <div
-        className="products_page"
-        id="products"
-        
-      >
+      <div className="products_page" id="products">
         <div className="products_text_line container">
           <div className="rotated_text_btn">
             <span>{t("fives_page.main_text")}</span>

@@ -29,11 +29,12 @@
   justify-content: flex-end;
   padding: 20px 0;
 }
-@media (max-width: 512px) {
-  .adv {
-    padding: 0 25px;
-  }
-}
+
+// @media (max-width: 512px) {
+//   .adv {
+//     padding: 0 25px;
+//   }
+// }
 
 @media screen and (max-width: 768px) {
   .adv_back {

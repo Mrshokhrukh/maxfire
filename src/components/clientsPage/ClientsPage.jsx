@@ -32,35 +32,58 @@ const ClientsPage = () => {
         </div>
 
         <div className="companies_collabs">
-          <a href="https://www.instagram.com/svetofor_taraz_alfarabi/" target="_blank">
-            <img src={svet} alt="" />
-          </a>
-          <a href="https://www.instagram.com/marinno_shashlik_market/" target="_blank">
-            <img src={mar} alt="" />
-          </a>
-          <a href="https://www.instagram.com/shashlik_marinad.uz/" target="_blank">
-            <img src={shash} alt="" />
-          </a>
-          <a href="https://www.instagram.com/makro_supermarket/" target="_blank">
-            <img src={mac} alt="" />
-          </a>
-          <a href="https://www.instagram.com/safia_uz/" target="_blank">
-            <img src={saf} alt="" />
-          </a>
-          <a href="https://www.instagram.com/emin.marinad/" target="_blank">
-            <img src={emin} alt="" />
-          </a>
-          <a href="https://www.instagram.com/carrefouruzbekistan/" target="_blank">
-            <img src={carr} alt="" />
-          </a>
-          <a href="https://www.instagram.com/gosht.uz/" target="_blank">
-            <img src={gosh} alt="" />
-          </a>
           <a href="https://www.instagram.com/korzinkauz/" target="_blank">
             <img src={kar} alt="" />
           </a>
-          <a href="https://www.instagram.com/makon_supermarket/" target="_blank">
+          <a
+            href="https://www.instagram.com/makro_supermarket/"
+            target="_blank"
+          >
+            <img src={mac} alt="" />
+          </a>
+          <a
+            href="https://www.instagram.com/carrefouruzbekistan/"
+            target="_blank"
+          >
+            <img src={carr} alt="" />
+          </a>
+
+          <a
+            href="https://www.instagram.com/marinno_shashlik_market/"
+            target="_blank"
+          >
+            <img src={mar} alt="" />
+          </a>
+          <a
+            href="https://www.instagram.com/shashlik_marinad.uz/"
+            target="_blank"
+          >
+            <img src={shash} alt="" />
+          </a>
+          <a
+            href="https://www.instagram.com/makon_supermarket/"
+            target="_blank"
+          >
             <img src={makon} alt="" />
+          </a>
+
+          <a href="https://www.instagram.com/safia_uz/" target="_blank">
+            <img src={saf} alt="" />
+          </a>
+
+          <a
+            href="https://www.instagram.com/svetofor_taraz_alfarabi/"
+            target="_blank"
+          >
+            <img src={svet} alt="" />
+          </a>
+
+          <a href="https://www.instagram.com/emin.marinad/" target="_blank">
+            <img src={emin} alt="" />
+          </a>
+
+          <a href="https://www.instagram.com/gosht.uz/" target="_blank">
+            <img src={gosh} alt="" />
           </a>
         </div>
       </div>

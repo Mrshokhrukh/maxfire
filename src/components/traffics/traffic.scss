@@ -4,17 +4,17 @@
   width: 100%;
 }
 
-@media (max-width: 768px) {
-  .traffic_page {
-    height: 90vh;
-  }
-}
+// @media (max-width: 768px) {
+//   .traffic_page {
+//     height: 90vh;
+//   }
+// }
 
-@media (max-width: 502px) {
-  .traffic_page {
-    height: 100vh;
-  }
-}
+// @media (max-width: 502px) {
+//   .traffic_page {
+//     height: 100vh;
+//   }
+// }
 
 .track_background_img {
   position: absolute;
@@ -37,8 +37,10 @@
 }
 
 @media (max-width: 512px) {
+
   .main_about_right {
     padding: 0 40px !important;
+    padding-top: 5px !important;
   }
 }
 

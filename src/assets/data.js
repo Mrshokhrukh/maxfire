@@ -25,7 +25,7 @@ export const products = [
     min_order: "50 шт",
     used_for: "мангал, шашлык",
     price: "13 000",
-    img: img2,
+    img: img17,
   },
   {
     id: 2,
