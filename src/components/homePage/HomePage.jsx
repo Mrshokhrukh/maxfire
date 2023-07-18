@@ -31,7 +31,6 @@ const HomePage = () => {
 
   return (
     <>
-    
       <div className="background_img">
         <img src={isSmall ? resHome : pageOne} alt="" />
       </div>
@@ -53,7 +52,7 @@ const HomePage = () => {
         </div>
         <CircularText
           icon={<BsArrowDown />}
-          text={"листавйте вниз * листавйте вниз *"}
+          text={"листайте_вниз * листайте_вниз *"}
         />
       </div>
     </>

@@ -34,6 +34,14 @@ const Buy = () => {
                 <a href="https://www.instagram.com/korzinkauz/" target="_blank">
                   <img src={karzinka} alt="" />
                 </a>
+              </div>{" "}
+              <div className="brands_img three">
+                <a
+                  href="https://www.instagram.com/makro_supermarket/"
+                  target="_blank"
+                >
+                  <img src={makro} alt="" />
+                </a>
               </div>
               <div className="brands_img two">
                 <a
@@ -41,14 +49,6 @@ const Buy = () => {
                   target="_blank"
                 >
                   <img src={havas} alt="" />
-                </a>
-              </div>
-              <div className="brands_img three">
-                <a
-                  href="https://www.instagram.com/makro_supermarket/"
-                  target="_blank"
-                >
-                  <img src={makro} alt="" />
                 </a>
               </div>
             </div>

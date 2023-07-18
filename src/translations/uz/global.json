@@ -15,7 +15,7 @@
   },
 
   "second_page": {
-    "main_text": "Qadoqlangan briket ko'mir",
+    "main_text": "Qadoqlangan briket pista ko'mir",
     "desc": "go'sht, baliq, parranda go'shti va boshqa turli xil taomlarni barbekyularda tez va xavfsiz pishirish uchun mo'ljallangan.",
     "btn_1": "tabiiy",
     "btn_2": "uzoq yonuvchan",
@@ -24,18 +24,18 @@
 
   "third_page": {
     "about_text": "biz haqimizda",
-    "desc": "Max fire - Biz 2014 yildan beri ko'mir ishlab chiqaramiz. Bizning pechlarimizning umumiy quvvati oyiga 200 tonnadan ortiq ko'mirni tashkil etadi. Kompaniyamiz o'zini yuqori sifatli ko'mirning ishonchli ishlab chiqaruvchisi sifatida ko'rsatdi! Biz barcha ishlab chiqarish jarayonlarini qat'iy nazorat qilamiz: yog'ochni tanlash va yig'ib olishdan tortib qadoqlash sifatini nazorat qilish va o'z vaqtida yetkazib berishgacha."
+    "desc": "Max fire - Biz 2014 yildan beri pista ko'mir ishlab chiqaramiz. Bizning pechlarimizning umumiy quvvati oyiga 200 tonnadan ortiq pista ko'mirni tashkil etadi. Kompaniyamiz o'zini yuqori sifatli ko'mirning ishonchli ishlab chiqaruvchisi sifatida ko'rsatdi! Biz barcha ishlab chiqarish jarayonlarini qat'iy nazorat qilamiz: yog'ochni tanlash va yig'ib olishdan tortib qadoqlash sifatini nazorat qilish va o'z vaqtida yetkazib berishgacha."
   },
   "fourth_page": {
     "starter_text": "Starter",
-    "after_starter_text": "ko'mirni yoqish uchun",
+    "after_starter_text": "Pista ko'mirni yoqish uchun",
     "text_1": "0,5 mm qalinlikdagi yuqori sifatli metalldan tayyorlangan",
     "text_2": "zamonaviy va qulay eman dastasi barmoqlaringizni kesmaydi",
     "text_3": "starter diametri 18 sm, balandligi 30 sm",
     "text_4": "2 kg briket uchun ideal hajm"
   },
   "fives_page": {
-    "main_text": "Briket ko'mirlar",
+    "main_text": "Briket pista ko'mirlar",
     "product_info_1": "Ishlab chiqariladi",
     "product_info_2": "Yonish vaqti",
     "product_info_3": "Eng kam buyurtma",
@@ -56,7 +56,7 @@
   "eight_page": {
     "main_text": "Nega bizni tanlashadi?",
     "title_1": "Kafolat",
-    "info_1": "Biz uchun briket ko'mirlar sifati birinchi o'rinda va briketlar o'zidan hech qanday zararli hid chiqarmaydi! Rossiyada ishlab chiqariladi.",
+    "info_1": "Biz uchun briket pista ko'mirlar sifati birinchi o'rinda va briketlar o'zidan hech qanday zararli hid chiqarmaydi! Rossiyada ishlab chiqariladi.",
     "title_2": "Yetkazish ",
     "info_2": " biz tez va arzon yetkazib berishni o'zimiz tashkillashtiramiz",
     "title_3": "Imkoniyatlar",
