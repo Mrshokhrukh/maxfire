@@ -52,7 +52,7 @@ const HomePage = () => {
         </div>
         <CircularText
           icon={<BsArrowDown />}
-          text={"листайте_вниз * листайте_вниз *"}
+          text={`${t("cirlce_text.circle")}`}
         />
       </div>
     </>

@@ -16,17 +16,7 @@ import img15 from "./5 page/15.png";
 import img16 from "./5 page/16.png";
 import img17 from "./5 page/17.png";
 export const products = [
-  {
-    id: 1,
-    name: "Maxfire",
-    weight: "1кг",
-    location: "Россия",
-    time: "3 часа",
-    min_order: "50 шт",
-    used_for: "мангал, шашлык",
-    price: "13 000",
-    img: 'https://cdn.hswstatic.com/gif/empty-shelves.jpg',
-  },
+
   {
     id: 2,
     name: "Maxfire",

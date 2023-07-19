@@ -6,6 +6,9 @@
     "el_4": "sotib olish",
     "el_5": "Bog'lanish"
   },
+  "cirlce_text": {
+    "circle": "pastga o'ting * pastga o'ting *"
+  },
 
   "home_page_text": {
     "main_text": "Yuqori sifatli",
@@ -43,14 +46,14 @@
   },
   "six_page": {
     "main_text": "Maxsulotimizni",
-    "markets_text": "tarmoqdagi do'konlardan",
+    "markets_text": "...",
     "info_1": "quyidagi supermarketlar va turli katta va kichik bo'lgan go'sht do'konlaridan xarid qilishingiz mumkin."
   },
   "seven_page": {
-    "main_text": "Услуга",
-    "info_1": "O'zbekiston bo'ylab yetkazish",
-    "info_2": "Buyurtma hajmiga qarab, 1 kundan 10 kungacha yetkazib beramiz.",
-    "info_3": "100 ta qadoqdan ortiq buyurtmalar uchun yetkazib berish bizning hisobimizdan to'lab beriladi",
+    "main_text": "O'zbekiston",
+    "info_1": "bo'ylab yetkazib berish",
+    "info_2": "Buyurtma hajmiga qarab, 1 kundan 3 kungacha yetkazib beramiz.",
+    "info_3": "100 ta qadoqdan ortiq buyurtmalar uchun yetkazib berish bizning hisobimizdan to'lab beriladi (Toshkent shahri ichida)",
     "info_4": "Bundan tashqari buyurtmani o'zingiz zavoddan olib ketishingiz ham mumkin"
   },
   "eight_page": {
@@ -72,8 +75,8 @@
     "target": "Zangiota viloyati Chig'atoy oqtepa",
     "home": "Shifobaxsh ko'chasi 7-uy",
     "work_time": "Dushanbadan Shanbagacha, soat 09:00 dan 20:00 gacha",
-    "form_name": "Ismni kiriting:",
-    "form_email": "Telefon raqamingizni kiriting:",
+    "form_name": "Ismni kiriting",
+    "form_email": "Telefon raqamingizni kiriting",
     "record": "Ariza qoldirish",
     "call": "Bog'lanish",
     "media_text": "Bizni ijtimoiy tarmoqlarda ham kuzating!"
